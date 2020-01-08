@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/font_size"
+    android:theme="@style/AppTheme"
+    tools:context="com.cpetsol.cpetsolutions.myaaptha.activity.BookOverviewActivity">
+<LinearLayout
+    android:layout_marginTop="@dimen/button_size"
+   android:background="@drawable/button_selector_1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:weightSum="2"
+        android:background="@drawable/form_edit_text_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1.9"
+            android:textStyle="bold"
+            android:textSize="@dimen/layoutHeadings"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Appontment Details"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="0dp"
+            android:id="@+id/closeDialog"
+            android:layout_weight="0.1"
+            android:padding="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cancel"/>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/font_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:paddingBottom="@dimen/padding_x2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Appointment Id"
+            android:textSize="@dimen/font_size"
+            android:layout_weight="0.8"/>
+        <TextView
+            android:layout_weight="0.1"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=": "
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/apptId"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1.1"
+            android:gravity="center_vertical"
+            android:layout_width="0dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/font_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:paddingBottom="@dimen/padding_x2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="OP ID"
+            android:textSize="@dimen/font_size"
+            android:layout_weight="0.8"/>
+        <TextView
+            android:layout_weight="0.1"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=": "
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/opid"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1.1"
+            android:gravity="center_vertical"
+            android:layout_width="0dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:paddingBottom="@dimen/padding_x2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="PatientName"
+            android:textSize="@dimen/font_size"
+            android:layout_weight="0.8"/>
+        <TextView
+            android:layout_weight="0.1"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=": "
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_ptnme"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1.1"
+            android:gravity="center_vertical"
+            android:layout_width="0dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:paddingBottom="@dimen/padding_x2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Docter Name"
+            android:textSize="@dimen/font_size"
+            android:layout_weight="0.8"/>
+        <TextView
+            android:layout_weight="0.1"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=": "
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_DrName"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1.1"
+            android:gravity="center_vertical"
+            android:layout_width="0dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:paddingBottom="@dimen/padding_x2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Hospital"
+            android:textSize="@dimen/font_size"
+            android:layout_weight="0.8"/>
+        <TextView
+            android:layout_weight="0.1"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=": "
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_HspName"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1.1"
+            android:gravity="center_vertical"
+            android:layout_width="0dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:paddingBottom="@dimen/padding_x2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Specilization"
+            android:textSize="@dimen/font_size"
+            android:layout_weight="0.8"/>
+        <TextView
+            android:layout_weight="0.1"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=": "
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_DrSpec"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1.1"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:paddingBottom="@dimen/padding_x2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Date And Time"
+            android:textSize="@dimen/font_size"
+            android:layout_weight="0.8"/>
+        <TextView
+            android:layout_weight="0.1"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text=": "
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_DateTime"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_weight="1.1"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c7e78</color>
+    <color name="colorPrimaryDark">#0e4541</color>
+    <color name="colorAccent">#fcfcfc</color>
+    <color name="colorText">#f1f1f1</color>
+    <color name="colorBackground">#f8f8cf</color>
+    <color name="statusBarColor">#33f47d31</color>
+    <color name="buttonColor">#f58843</color>
+    <color name="dark_green">#af092d2a</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="app_color">#00695C</color>
+
+
+    <color name="pink">#FF1493</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#CCFFFF</color>
+    <color name="white">#FFFFFF </color>
+    <color name="lightWhite">#E7EDF3</color>
+    <color name="lightblue">#B8DCEF</color>
+    <color name="orange">#fffe9908</color>
+    <color name="transorange">#FFD2621A</color>
+    <color name="insta_blue_bg">#0aabd3</color>
+    <color name="insta_menu_list_bg">#2C3539</color>
+    <color name="insta_green_deli">#29995E</color>
+    <color name="insta_green">#008000</color>
+    <color name="cpet_bg">#b30000</color>
+    <color name="cpet_bg1">#E3293A</color>
+    <color name="cpet_bg11">#ED8588</color>
+    <color name="cpet_bg2">#E78428</color>
+    <color name="cpet_bg22">#EEA96A</color>
+    <color name="cpet_bg3">#F6D800</color>
+    <color name="cpet_bg33">#F6D800</color>
+    <color name="lightblue1">#58A6D6</color>
+
+
+    <color name="gunmetal">#2C3539</color>
+    <color name="charcoal">#34282C</color>
+    <color name="royalBlue">#5D7CF9</color>
+    <color name="royalBluelow">#4C6EF4</color>
+    <color name="Bluelow">#2543d4</color>
+
+    <color name="blue_aboutUs">#3399ff</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent90">#80000000</color>
+
+    <item name="common_signin_btn_dark_text_default" type="color">@*android:color/white</item>
+    <item name="common_signin_btn_dark_text_pressed" type="color">@*android:color/white</item>
+    <color name="gray">#AEA1A1</color>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+
+    <item name="common_signin_btn_dark_text_focused" type="color">@*android:color/white</item>
+
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+
+    <item name="common_signin_btn_light_text_pressed" type="color">@*android:color/white</item>
+
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="lightgray">#ededed</color>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+
+    <item name="abs__bright_foreground_holo_dark" type="color">@color/abs__background_holo_light</item>
+    <item name="abs__bright_foreground_holo_light" type="color">@color/abs__background_holo_dark</item>
+
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="com_facebook_picker_search_bar_background">#fff5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#ffbcbdc2</color>
+    <color name="com_facebook_blue">#ff3b5998</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#ff000000</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#ffa6aed7</color>
+    <color name="mytheme_primary">#ff444444</color>
+    <color name="mytheme_secondary">#ff777777</color>
+    <color name="mytheme_tertiary">#ff33b5e5</color>
+    <color name="black">#ff000000</color>
+    <color name="background_std">#f7eaea</color>
+    <color name="btn_gray">#ffcecece</color>
+    <color name="divider_gray">#ffaaaaaa</color>
+    <color name="blue_box_divider">#ff5c8bc2</color>
+    <color name="blue_box_secondary">#ffcccccc</color>
+    <color name="colorHover">#30818181</color>
+    <color name="green_box_divider">#ffaaaaaa</color>
+    <color name="my_location_bg_stroke">#ffcccccc</color>
+    <color name="my_location_bg_stroke_pressed">#ffcccccc</color>
+    <color name="my_radiobutton_textcolor">#FF848080</color>
+    <color name="white_overlay">#ccffffff</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="countdown_green">#ff339608</color>
+    <color name="blue_mylocation_beacon_fill">#ff64c3ff</color>
+    <color name="blue_mylocation_beacon_outline">#ff07a4ff</color>
+    <color name="grey_std">#ff2f2f2f</color>
+    <color name="green_std">#ff5fb007</color>
+    <color name="green_std1">#689f38</color>
+    <color name="green_tab_strip">#ff437f00</color>
+    <color name="error_text">#ffc44d49</color>
+    <color name="my_location_bg_solid">#aaffffff</color>
+    <color name="recorder_bg">#F4511E</color>
+
+    <!--
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
+    -->
+
+    <color name="list_background">#2C3539</color>
+    <color name="list_background_pressed">#25619F</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="dark_gray">#ff646464</color>
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="purple_light">#a276eb</color>
+    <color name="purple_middle">#8658ce</color>
+    <color name="purple_dark">#6a3ab2</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="accent">#F50056</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="bkg_card">#8C9EFF</color>
+    <color name="android_green">#ff96aa39</color>
+    <color name="tablet_bg">#22efefef</color>
+    <color name="border_color">#dedede</color>
+    <color name="header_color">#f6f6f6</color>
+    <color name="section_color">#f0f0f0</color>
+
+
+    <color name="HeaderLoginPurple">#ff0866c6</color>
+    <color name="blue_text_color">#ff2673bc</color>
+    <color name="gray_text_original">#ff969696</color>
+
+    <color name="blue_actionbar_background">#ff449def</color>
+
+    <color name="TextColorDark">#ff444466</color>
+
+    <color name="MainTextCOlor">#003151</color>
+    <color name="TextColorLight">#e8e8fb</color>
+
+    <color name="app_back_gray">#f5ebeb</color>
+
+    <color name="onpressed">#82B1FF</color>
+    <color name="tooltext">#82B1FF</color>
+    <color name="gray_ccc">#cccccc</color>
+    <color name="blue_cc">#A8C3D4</color>
+
+    <!-- BLUE-->
+    <!--<color name="colorPrimaryDark">#1976D2</color>-->
+    <!--<color name="colorPrimary">#2196F3</color>-->
+    <!--<color name="colorAccent">#82B1FF</color>--> <!-- LIGHT BLUE -->
+    <!--<color name="colorAccent">#2196F3</color>-->
+
+    <!--<color name="colorPrimaryDark">#f71d1c1c</color>
+    <color name="colorPrimary">#174564</color>
+    <color name="colorAccent">#0078D7</color>-->
+
+    <!--<color name="colorPrimaryDark">#4b7c2d</color>
+    <color name="colorPrimary">#F37020</color>
+    <color name="colorAccent">#6aae41</color>-->
+    <color name="edittext">#878787</color>
+    <color name="button_reg">#0F27C1</color>
+    <color name="gray_333">#333333</color>
+    <color name="gray_666">#666666</color>
+    <color name="yellow">#ffff00</color>
+    <color name="cardview_bg">#ffe5e5e5</color>
+    <color name="merun">#b71c1c</color>
+    <color name="reg_grey">#90a2ac</color>
+    <color name="text_color_tb_row_data">#4bb4a1</color>
+    <color name="table_border_heading">#1976D2</color>
+    <color name="text_color">#FBFCF7</color>
+    <color name="gray_aaa">#aaaaaa</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="gray_light">#E7E7E7</color>
+    <color name="gray_999">#999999</color>
+    <color name="progress_start">#cef144</color>
+    <color name="progress_middle">#acca36</color>
+    <color name="red_color_dark">#EF4B51</color>
+    <color name="ab_bg_end">#688C03</color>
+    <color name="lite_grey">#dde8ea</color>
+    <color name="splash_bg">#c5e0b4</color>
+    <color name="colorGreen">#5BB899</color>
+    <color name="summer">#44eebd82</color>
+    <color name="fall">#44d8d27e</color>
+    <color name="winter">#44a1c1da</color>
+    <color name="spring">#448da64b</color>
+    <color name="level_0">#1abc9c</color>
+    <color name="level_1">#3498db</color>
+    <color name="level_2">#e67e22</color>
+    <color name="level_3">#8e44ad</color>
+    <color name="level_4">#f1c40f</color>
+    <color name="level_5">#2ecc71</color>
+    <color name="level_default">#000000</color>
+    <color name="primaryTextColor">#4d4d4d</color>
+    <color name="secundaryTextColor">#757575</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="logInBg">#FFB6E9E9</color>
+    <color name="logInBgBack">#FFE5EBED</color>
+    <color name="group_divider_color">#80CBC4</color>
+
+    <color name="tab_disable">#979797</color>
+    <color name="tab_enable">#FFFFFF</color>
+    <color name="tab_checked">#F3CD70</color>
+    <color name="tab_unchecked">#FFFFFF</color>
+    <color name="brown">#F7A859</color>
+</resources>

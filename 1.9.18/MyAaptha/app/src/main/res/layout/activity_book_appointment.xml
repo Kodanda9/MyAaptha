@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_book_appointment_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/male"
+            android:id="@+id/imageid"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="@dimen/padding_x2"
+            android:layout_toRightOf="@+id/imageid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#000000"
+                android:textSize="@dimen/tvHeading"
+                android:text="Dr. Prasad"
+                android:id="@+id/TV_DN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="25sp"
+                android:text="MBBS"
+                android:id="@+id/TV_DD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:text="Anaesthesia,   5  Years Experience"
+                android:id="@+id/TV_DSY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ListView
+        android:background="@drawable/border"
+        android:id="@+id/DrHL"
+        android:divider="#3399ff"
+        android:dividerHeight="@dimen/padding_x2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>

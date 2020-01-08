@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/form_edit_text_bg"
+    tools:context="com.cpetsol.cpetsolutions.myaaptha.fragment.AdminFragment">
+<LinearLayout
+
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:padding="@dimen/padding_x"
+        android:layout_weight="4.5"
+        android:id="@+id/catlist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </ListView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_weight="0.4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/addc"
+            android:text="Add Categories"
+            android:background="@drawable/button_selector_1"
+            android:layout_weight="1.4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/adds"
+            android:text="Add Sub Categories"
+            android:background="@drawable/button_selector_1"
+            android:layout_weight="1.4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+</LinearLayout>
+
+
+</LinearLayout>

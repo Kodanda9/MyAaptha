@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/form_edit_text_bg"
+    tools:context="com.cpetsol.cpetsolutions.myaaptha.fragment.Medicines_HallFragment">
+
+  <LinearLayout
+      android:weightSum="2"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <ListView
+          android:layout_weight="1.85"
+           android:id="@+id/lv_medicinehall"
+          android:layout_width="match_parent"
+          android:layout_height="0dp">
+      </ListView>
+      <Button
+          android:id="@+id/add"
+          android:textColor="@color/white"
+          android:background="@color/orange"
+          android:text="Add a Medicine"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_weight="0.15"/>
+  </LinearLayout>
+
+</LinearLayout>

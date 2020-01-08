@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/padding_2x">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/logo_size"
+            android:layout_height="@dimen/pie_chart_text1_size"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:contentDescription="image" />
+
+        <TextView
+            style="@style/TextviewStyle"
+            android:text="Welcome"
+            android:textSize="@dimen/tvHeading"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_x"
+
+            android:layout_marginBottom="@dimen/faiIconsize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/button_bg"
+                android:layout_margin="@dimen/TILMargin"
+                android:padding="0dp">
+                <TextView
+                    android:id="@+id/tvfoiUn"
+                    android:layout_width="@dimen/spinnerHeight"
+                    style="@style/faiStyles"
+                    android:text="@string/fai_phNo"
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/et_loginmobNum"
+                    style="@style/TextInputLayoutStyle"
+                    android:hint="Mobile Number"
+                    android:textColorHint="@color/mytheme_secondary"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:textColor="@color/black"
+                    android:gravity="start|center_vertical"
+                    />
+
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">-->
+                    <!--<EditText-->
+                        <!--android:id="@+id/et_loginmobNum"-->
+                        <!--style="@style/TextInputLayoutStyle"-->
+                        <!--android:hint="Mobile Number"-->
+                        <!--android:textColorHint="@color/black"-->
+                        <!--android:inputType="phone"-->
+                        <!--android:maxLength="10"-->
+                        <!--android:textColor="@color/black"-->
+                        <!--android:gravity="start|center_vertical"-->
+                        <!--/>-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/button_bg"
+                android:layout_margin="@dimen/TILMargin"
+                android:padding="0dp">
+                <TextView
+                    android:id="@+id/tvfoiPsw"
+                    android:layout_width="@dimen/spinnerHeight"
+                    style="@style/faiStyles"
+                    android:text="@string/fai_lock"
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/et_loginpassword"
+                    style="@style/TextInputLayoutStyle"
+                    android:hint="Password"
+                    android:textColor="@color/black"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/mytheme_secondary"
+                    android:gravity="start|center_vertical"
+                    />
+
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">-->
+                    <!--<EditText-->
+                        <!--android:id="@+id/et_loginpassword"-->
+                        <!--style="@style/TextInputLayoutStyle"-->
+                        <!--android:hint="Password"-->
+                        <!--android:textColor="@color/black"-->
+                        <!--android:textColorHint="@color/black"-->
+                        <!--android:gravity="start|center_vertical"-->
+                        <!--/>-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_x"
+                android:layout_marginBottom="@dimen/margin_x">
+                <TextView
+                    android:id="@+id/tvforgetPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Forgot Password?"
+                    android:paddingLeft="@dimen/margin_x"
+                    android:textSize="@dimen/font_size"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/padding_x2">
+                <!--<TextView-->
+                    <!--android:id="@+id/tvLabTest"-->
+                    <!--style="@style/cust_button"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="@drawable/button_selector_1"-->
+                    <!--android:text="ADD"-->
+                    <!--android:paddingLeft="15dp"-->
+                    <!--android:paddingRight="15dp"/>-->
+
+                <Button
+                    android:id="@+id/login_button"
+                    style="@style/cust_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_selector_1"
+                    android:text="@string/login"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center">-->
+            <!--<Button-->
+            <!--android:id="@+id/loginBtn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/button_bg"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:text="@string/login"/>-->
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/tv_dont_have_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/don_t_have_any_account"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/signUpClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/padding_x"
+                android:paddingStart="@dimen/padding_x"
+                android:paddingRight="@dimen/padding_x"
+                android:paddingEnd="@dimen/padding_x"
+                android:text="@string/sign_up"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

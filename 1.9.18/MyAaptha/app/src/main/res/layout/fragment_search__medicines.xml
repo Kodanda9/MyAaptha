@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+
+    tools:context="com.cpetsol.cpetsolutions.myaaptha.fragment.Search_MedicinesFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/white"
+                android:text="Enter ProfileId/Mobile No. to get the prescription of medicines:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_x"/>
+            <EditText
+                android:id="@+id/medicineNum"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/editTextHeight"
+                android:inputType="number"
+                android:paddingLeft="@dimen/padding_x2"
+                android:background="@drawable/draw_edittext_bg"
+                android:gravity="start|center_vertical"
+                android:layout_marginLeft="@dimen/padding_x2"
+                android:layout_marginRight="@dimen/padding_x2"
+                android:hint="Number...." />
+            <Button
+                android:id="@+id/search"
+                android:textSize="@dimen/font_size"
+                android:backgroundTint="#0888a7"
+                android:layout_margin="@dimen/padding_x"
+                android:background="@drawable/draw_edittext_bg"
+                android:layout_gravity="center"
+                android:text="Search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x2"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/draw_edittext_bg"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:id="@+id/numberLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:background="@drawable/circle_round_background"
+                android:layout_gravity="center"
+                android:src="@drawable/otherimg"
+                android:id="@+id/image"
+                android:layout_width="@dimen/logo_size"
+                android:layout_height="@dimen/logo_size" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_size"
+                        android:text="Profile_Id"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="@color/white"
+                        android:text=":"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.1"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#3399ff"
+                        android:textSize="@dimen/font_size"
+                        android:id="@+id/pfid"
+                        android:layout_weight="1.4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_size"
+                        android:text="Name"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="@color/white"
+                        android:text=":"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.1"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#3399ff"
+                        android:textSize="@dimen/font_size"
+                        android:id="@+id/name_med"
+                        android:layout_weight="1.4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_size"
+                        android:text="Gender"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="@color/white"
+                        android:text=":"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.1"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#3399ff"
+                        android:textSize="@dimen/font_size"
+                        android:id="@+id/gender_med"
+                        android:layout_weight="1.4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_size"
+                        android:text="District"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="@color/white"
+                        android:text=":"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.1"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#3399ff"
+                        android:textSize="@dimen/font_size"
+                        android:id="@+id/dist_med"
+                        android:layout_weight="1.4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_size"
+                        android:text=" State"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="@color/white"
+                        android:text=":"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.1"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="#3399ff"
+                        android:textSize="@dimen/font_size"
+                        android:id="@+id/state_med"
+                        android:layout_weight="1.4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <Button
+                    android:backgroundTint="@color/orange"
+                    android:background="@drawable/button_selector_1"
+                    android:layout_marginTop="@dimen/font_size"
+                    android:text="View PrescriptionDetails"
+                    android:id="@+id/viewpreDtls"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

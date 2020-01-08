@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/form_edit_text_bg"
+    tools:context="com.cpetsol.cpetsolutions.myaaptha.fragment.MedicineStockDetailsFragment">
+    <RelativeLayout
+        android:id="@+id/rlsuggestlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/emptybox"
+                />
+            <TextView
+                style="@style/textViewStyle"
+                android:gravity="center"
+                android:textSize="@dimen/font_size"
+                android:text="@string/noRecordsFound"
+                android:textColor="@color/insta_blue_bg"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="@dimen/font_size"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+<Button
+    android:gravity="center"
+    android:background="#3bafda"
+    android:id="@+id/addM"
+    android:text="Medicine Stock Details"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+</LinearLayout>
+
+</LinearLayout>

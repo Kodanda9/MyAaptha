@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<TextView
+    android:padding="@dimen/padding_x2"
+    android:id="@+id/testname"
+    android:textColor="@color/black"
+    android:textSize="@dimen/font_size"
+    android:layout_weight="1.7"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content" />
+        <TextView
+            android:paddingLeft="@dimen/font_size"
+            android:id="@+id/tvFileName"
+            style="@style/userFileButton"
+            />
+    </LinearLayout>
+</LinearLayout>

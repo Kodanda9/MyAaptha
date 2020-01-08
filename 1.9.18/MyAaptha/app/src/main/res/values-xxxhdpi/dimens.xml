@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_2x">175dp</dimen>
+    <dimen name="padding_2x">30dp</dimen>
+    <dimen name="margin_x">16dp</dimen>
+    <dimen name="padding_x2">8dp</dimen>
+    <dimen name="padding_x">28dp</dimen>
+    <dimen name="margin_3x">32dp</dimen>
+    <dimen name="button_size">50dp</dimen>
+    <dimen name="logo_size">90dp</dimen>
+    <dimen name="layoutHeadings">18dp</dimen>
+    <dimen name="editTextHeight">30dp</dimen>
+    <dimen name="faiIconsize">29dp</dimen>
+    <dimen name="frame_width">173dp</dimen>
+    <dimen name="backButtonWidth">140dp</dimen>
+    <dimen name="tvHeading">23dp</dimen>
+    <dimen name="spinnerHeight">35dp</dimen>
+    <dimen name="radioButtonText">13px</dimen>
+    <dimen name="nav_drawer_width">240dp</dimen>
+    <dimen name="header_img_size">120dp</dimen>
+    <dimen name="pie_chart_text1_size">70dp</dimen>
+    <dimen name="pie_chart_text2_size">56dp</dimen>
+    <dimen name="editText">30dp</dimen>
+    <dimen name="font_size">15dp</dimen>
+    <dimen name="font_size1">12dp</dimen>
+    <dimen name="font_sizedesc">10dp</dimen>
+    <dimen name="TILMargin">28px</dimen>
+    <dimen name="TILMarginTD">18px</dimen>
+    <dimen name="privacyRadioButtonText">28px</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">55dp</dimen>
+    <dimen name="activity_vertical_margin">55dp</dimen>
+    <dimen name="cardview_horizontal_padding">18dp</dimen>
+    <dimen name="cardview_vertical_padding">10dp</dimen>
+    <dimen name="cardCornerRadius">10dp</dimen>
+    <dimen name="cardElevation">4dp</dimen>
+    <dimen name="view_width">2.2dp</dimen>
+    <dimen name="remove_width">70dp</dimen>
+    <dimen name="piechart_height">1400dp</dimen>
+    <dimen name="menuTitles">12dp</dimen>
+
+
+</resources>

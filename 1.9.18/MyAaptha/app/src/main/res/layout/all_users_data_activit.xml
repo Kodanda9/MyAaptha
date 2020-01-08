@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AllUsersDataActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/form_edit_text_bg">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/insta_blue_bg"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/lvAlluserData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+    <include layout="@layout/add_user_details"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|bottom"
+        android:padding="3dp"
+        android:visibility="gone"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_addData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:background="@color/accent"
+            android:src="@drawable/ic_action_plus"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+<!--<RelativeLayout
+    android:id="@+id/norecords"
+    android:visibility="gone"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:src="@drawable/emptybox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView" />
+    <TextView
+        android:layout_below="@+id/imageview"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="No Records Found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout >-->
+
+</RelativeLayout>

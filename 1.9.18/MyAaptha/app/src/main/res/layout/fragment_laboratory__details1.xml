@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_medical_shop_details"
+    android:layout_width="match_parent"
+    android:padding="@dimen/font_size"
+    android:layout_height="match_parent"
+    android:background="@drawable/form_edit_text_bg"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Lab Owner Name*: :"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/labNames"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/form_edit_text_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Name Of the Laboratory:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/labShopNms"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/form_edit_text_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Laboratory Registration No*"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/labShpRegNos"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/form_edit_text_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Approved By*:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/labapprvBys"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/form_edit_text_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Year of Registration*:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/labregYrs"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/form_edit_text_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Qualification Year*:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/labQualYrs"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/form_edit_text_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="State:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/state"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/form_edit_text_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="District:"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/district"
+                android:layout_gravity="center"
+                android:textSize="@dimen/font_size"
+                android:background="@drawable/form_edit_text_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/submitlabs"
+            android:textSize="@dimen/font_size"
+            android:background="#0888a7"
+            android:layout_marginTop="@dimen/font_size"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

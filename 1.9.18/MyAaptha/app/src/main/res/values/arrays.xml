@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="film_genre">
+        <item>Administration</item>
+        <item>School Management</item>
+        <item>Reports</item>
+        <item>User Profile</item>
+    </string-array>
+    <string-array name="actionFilms">
+        <!--<item>Document Translation</item>-->
+        <item>Rate Center</item>
+        <item>Report Center</item>
+        <item>Company Profile</item>
+    </string-array>
+    <string-array name="schManagement">
+        <item>School Management</item>
+    </string-array>
+    <string-array name="reports">
+        <item>General Reports</item>
+    </string-array>
+    <!--<string-array name="comedies">-->
+    <!--<item>Change Profile Picture</item>-->
+    <!--<item>Your Profile</item>-->
+    <!--<item>Log Out</item>-->
+    <!--</string-array>-->
+    <string-array name="allenbps_array">
+        <item>Change Profile Picture</item>
+        <item>Your Profile</item>
+        <item>Log Out</item>
+    </string-array>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>About Us</item>
+        <item>Contact Us</item>
+        <!--<item>Account</item>-->
+        <item>Book Appoinment</item>
+        <item>Articles</item>
+        <item>Forums</item>
+        <item>Medical Labs</item>
+        <item>"FAQ's"</item>
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home_black_24dp</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/calendar</item>
+        <item>@drawable/ic_home_black_24dp</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/ic_how_works</item>
+        <item>@drawable/ic_home_black_24dp</item>
+    </array>
+
+
+    <string-array name="main_doctors_data_ids_array" >
+        <item>main_loc</item>
+        <!--<item>et_locality</item>-->
+        <!--<item>et_spec</item>-->
+    </string-array>
+    <string-array name="main_doctors_data_errors_array" >
+        <item>Please Select Location</item>
+        <!--<item>Please Select Locality</item>-->
+        <!--<item>Please Select Specialization</item>-->
+    </string-array>
+    <string-array name="main_doctors_data_comptypes_array" >
+        <item>@string/spinner</item>
+        <!--<item>@string/editText</item>-->
+        <!--<item>@string/editText</item>-->
+    </string-array>
+    <string-array name="main_doctorsbook_popup_ids_array" >
+        <item>PopUpSpinnerName</item>
+        <item>popUpDrbookDate</item>
+        <item>PopUpSpinnerTimeSlots</item>
+    </string-array>
+    <string-array name="main_doctorsbook_popup_errors_array" >
+        <item>Select</item>
+        <item>@string/pleaseSelectDate</item>
+        <item>Select Time Slot</item>
+    </string-array>
+    <string-array name="main_doctorsbook_popup_comptypes_array" >
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/spinner</item>
+    </string-array>
+    <string-array name="login_ids_array" >
+        <item>et_loginmobNum</item>
+        <item>et_loginpassword</item>
+    </string-array>
+    <string-array name="login_errors_array" >
+        <item>Please Enter Mobile Number</item>
+        <item>Please Enter Password</item>
+    </string-array>
+    <string-array name="login_comptypes_array" >
+        <item>EditText</item>
+        <item>EditText</item>
+    </string-array>
+    <string-array name="signup_ids_array" >
+        <item>et_fullName</item>
+        <item>et_password</item>
+        <item>et_mobNumb</item>
+        <item>sState</item>
+        <item>sDist</item>
+    </string-array>
+    <string-array name="signup_errors_array" >
+        <item>Please Enter Name</item>
+        <item>Please Enter Password</item>
+        <item>Please Enter Mobile Number</item>
+        <item>Please Select State</item>
+        <item>Please Select Distict</item>
+    </string-array>
+    <string-array name="signup_comptypes_array" >
+        <item>EditText</item>
+        <item>EditText</item>
+        <item>EditText</item>
+        <item>Spinner</item>
+        <item>Spinner</item>
+    </string-array>
+
+    <string-array name="contactus_ids_array" >
+        <item>edName</item>
+        <item>edEmail</item>
+        <item>edmsg</item>
+    </string-array>
+    <string-array name="contactus_errors_array" >
+        <item>Please Enter name</item>
+        <item>Please Enter Email</item>
+        <item>Please Enter Text</item>
+    </string-array>
+    <string-array name="contactus_comptypes_array" >
+        <item>EditText</item>
+        <item>EditText</item>
+        <item>EditText</item>
+    </string-array>
+
+    <string-array name="sAddDataList">
+        <item>--Add Document Category--</item>
+        <item>Add Family Members</item>
+        <item>Education Details</item>
+        <item>Employment Details</item>
+        <item>Add Prescription</item>
+        <item>Health Details</item>
+        <item>Family Doctor Details</item>
+        <item>Emergency Contact Details</item>
+        <item>Upload Documents</item>
+        <item>Other Details</item>
+    </string-array>
+    <string-array name="selRelation" >
+        <item>Select Relation</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Cousin</item>
+        <item>Relative</item>
+        <item>Friends</item>
+        <item>Other</item>
+        <item>Daughter</item>
+        <item>Son</item>
+        <item>Spouse</item>
+    </string-array>
+    <string-array name="selSpecialization" >
+        <item>Select Specialization</item>
+        <item>Dermatology</item>
+        <item>Neurologist</item>
+        <item>ENT</item>
+        <item>General Surgeon</item>
+        <item>Apthamologist</item>
+    </string-array>
+
+    <string-array name="prescription_ids_array">
+        <item>etDrugName</item>
+        <item>sDrugType</item>
+        <item>sDosage</item>
+        <item>etQuantity</item>
+        <item>et_desc</item>
+    </string-array>
+    <string-array name="prescription_errors_array">
+        <item>Please Enter DrugName</item>
+        <item>@string/pleaseSelectItem</item>
+        <item>@string/pleaseSelectItem</item>
+        <item>Please Enter Quantity</item>
+        <item>Please Enter Description</item>
+    </string-array>
+    <string-array name="prescription_comptypes_array">
+        <item>@string/editText</item>
+        <item>@string/spinner</item>
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+    </string-array>
+    <string-array name="doctorsdata_ids_array" >
+        <item>hospitalnames</item>
+        <item>durat</item>
+        <item>price</item>
+    </string-array>
+    <string-array name="doctorsdata_errors_array">
+        <item>Please select hospital Name</item>
+        <item>Please select duration</item>
+        <item>Please Enter price</item>
+    </string-array>
+    <string-array name="doctorsdata_comptypes_array">
+        <item>@string/spinner</item>
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+    </string-array>
+
+    <string-array name="addFamDetails_ids_array" >
+        <item>et_Name</item>
+        <item>radioSexGroup</item>
+        <item>sRelation</item>
+        <item>et_Date</item>
+        <item>et_details</item>
+    </string-array>
+
+
+    <string-array name="addFamDetails_errors_array">
+        <item>Please Enter Name</item>
+        <item>Please select gender</item>
+        <item>@string/pleaseSelectItem</item>
+        <item>Please Enter Date</item>
+        <item>Please Enter Description</item>
+    </string-array>
+    <string-array name="addFamDetails_comptypes_array">
+        <item>@string/editText</item>
+        <item>@string/radioGroup</item>
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+    </string-array>
+    <string-array name="EducationDetails_ids_array" >
+        <item>sFamilynames</item>
+        <item>sQualification</item>
+        <item>et_Date</item>
+        <item>et_details</item>
+    </string-array>
+    <string-array name="EducationDetails_errors_array">
+        <item>@string/pleaseSelectItem</item>
+        <item>@string/pleaseSelectItem</item>
+        <item>Please Enter Date</item>
+        <item>Please Enter Description</item>
+    </string-array>
+    <string-array name="EducationDetails_comptypes_array">
+        <item>@string/spinner</item>
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+    </string-array>
+
+    <string-array name="EmpDetails_ids_array" >
+        <item>et_Company</item>
+        <item>et_Date</item>
+        <item>et_details</item>
+    </string-array>
+    <string-array name="EmpDetails_errors_array">
+        <item>Please Enter Company</item>
+        <item>Please Enter Date</item>
+        <item>Please Enter Description</item>
+    </string-array>
+    <string-array name="EmpDetails_comptypes_array">
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+    </string-array>
+    <string-array name="OtherDetails_ids_array" >
+        <item>sFamilynames</item>
+        <item>et_Date</item>
+        <item>et_details</item>
+    </string-array>
+    <string-array name="OtherDetails_errors_array">
+        <item>Please Select Item</item>
+        <item>Please Enter Date</item>
+        <item>Please Enter Description</item>
+    </string-array>
+    <string-array name="OtherDetails_comptypes_array">
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+    </string-array>
+
+    <string-array name="AddPresc_ids_array" >
+        <item>sFamilynames</item>
+        <item>et_DrName</item>
+        <item>et_DrSpec</item>
+        <item>et_Date</item>
+        <item>et_details</item>
+    </string-array>
+    <string-array name="AddPresc_errors_array">
+        <item>Please select Item</item>
+        <item>Please Enter Doctor Name</item>
+        <item>Please Enter Doctor Specilization</item>
+        <item>Please Enter Date</item>
+        <item>Please Enter Description</item>
+    </string-array>
+    <string-array name="AddPresc_comptypes_array">
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+    </string-array>
+    <string-array name="HealthDetails_ids_array" >
+        <item>sFamilynames</item>
+        <item>et_Category</item>
+        <item>et_Date</item>
+        <item>et_details</item>
+    </string-array>
+    <string-array name="HealthDetails_errors_array">
+        <item>Please select Item</item>
+        <item>Please Enter Category</item>
+        <item>Please Enter Date</item>
+        <item>Please Enter Description</item>
+    </string-array>
+    <string-array name="HealthDetails_comptypes_array">
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+    </string-array>
+
+    <string-array name="FamilyDrDetails_ids_array" >
+        <item>et_Name</item>
+        <item>sRelation</item>
+        <item>et_Number</item>
+        <item>et_Date</item>
+        <item>et_details</item>
+    </string-array>
+    <string-array name="FamilyDrDetails_errors_array">
+        <item>Please Enter Name</item>
+        <item>Please select Item</item>
+        <item>Please Enter Number</item>
+        <item>Please Enter Date</item>
+        <item>Please Enter Description</item>
+    </string-array>
+    <string-array name="FamilyDrDetails_comptypes_array">
+        <item>@string/editText</item>
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+    </string-array>
+
+
+    <string-array name="HealthPolicy_ids_array" >
+        <item>sFamilynames</item>
+        <item>sInsurance</item>
+        <item>insuranceid</item>
+        <item>sInsuranceprovider</item>
+        <item>et_Date</item>
+        <item>et_details</item>
+    </string-array>
+    <string-array name="HealthPolicy_errors_array">
+        <item>Please select Item</item>
+        <item>Please select Item</item>
+        <item>Please Enter Id</item>
+        <item>Please select Item</item>
+        <item>Please Enter Date</item>
+        <item>Please Enter Description</item>
+    </string-array>
+    <string-array name="HealthPolicy_comptypes_array">
+        <item>@string/spinner</item>
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+
+    </string-array>
+
+
+
+
+
+    <string-array name="uploadDocs_ids_array" >
+        <item>sFamilynames</item>
+        <item>sDocs</item>
+        <item>et_Number</item>
+        <item>et_Date</item>
+        <item>et_details</item>
+    </string-array>
+    <string-array name="uploadDocs_errors_array">
+        <item>Please select Item</item>
+        <item>Please select Item</item>
+        <item>Please Enter Number</item>
+        <item>Please Enter Date</item>
+        <item>Please Enter Description</item>
+    </string-array>
+    <string-array name="uploadDocs_comptypes_array">
+        <item>@string/spinner</item>
+        <item>@string/spinner</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+        <item>@string/editText</item>
+    </string-array>
+
+    <string-array name="selQualification">
+        <item>--Select Education--</item>
+        <item>B.Tech</item>
+        <item>M.Tech</item>
+        <item>MBA</item>
+        <item>MCA</item>
+        <item>SSC</item>
+        <item>Inter</item>
+        <item>BSc</item>
+        <item>MBBS</item>
+        <item>MS</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="changepassword_ids_array" >
+        <!--<item>et_mobNumb</item>-->
+        <item>et_confps</item>
+        <item>et_newPsw</item>
+        <item>et_confNewpsw</item>
+    </string-array>
+    <string-array name="changepassword_errors_array" >
+        <!--<item>Please Enter Mobile Number</item>-->
+        <item>Please Enter Old Password</item>
+        <item>Please Enter New Password</item>
+        <item>Please Enter Confirm Password</item>
+    </string-array>
+    <string-array name="changepassword_comptypes_array" >
+        <!--<item>EditText</item>-->
+        <item>EditText</item>
+        <item>EditText</item>
+        <item>EditText</item>
+    </string-array>
+    <string-array name="PolicyType" >
+       <item>Select Policies</item>
+        <item>Individual Policies</item>
+        <item>Group Policies</item>
+
+    </string-array>
+    <string-array name="PolicyProvider" >
+ <item>Select Insurance Provider</item>
+    <item>Star Health</item>
+    <item>ICICI Lamboard</item>
+    <item>Bajaj Allianj</item>
+
+   </string-array>
+
+    <string-array name="EmploymentType" >
+        <!--<item>EditText</item>-->
+        <item>Doctor</item>
+        <item> Nurse</item>
+        <item>Manager</item>
+        <item>Supervisor</item>
+        <item>Accountant</item>
+        <item>Compounder</item>
+        <item>Clerk</item>
+        <item>Office Boy</item>
+        <item>Other</item>
+
+    </string-array>
+
+
+
+
+
+    <string-array name="selDocs">
+        <item>Select Document</item>
+        <item>Aadhar Card</item>
+        <item>Pancard</item>
+        <item>Driving Licence</item>
+        <item>Passport</item>
+        <item>Bank Account</item>
+        <item>Voter Id Card</item>
+        <item>Photo</item>
+        <item>Other Documents</item>
+    </string-array>
+
+
+    <string-array name="experience">
+        <item>Fresher </item>
+        <item>1 year exp</item>
+        <item>2 year exp</item>
+        <item>3 year exp</item>
+        <item>4 year exp</item>
+        <item>5 year exp</item>
+        <item>6 year exp</item>
+        <item>7 year exp</item>
+        <item>8 year exp</item>
+        <item>9 year exp</item>
+        <item>10 year exp</item>
+        <item>11 year exp</item>
+        <item>12 year exp</item>
+        <item>13 year exp</item>
+        <item>14 year exp</item>
+        <item>15 year exp</item>
+        <item>16 year exp</item>
+        <item>17 year exp</item>
+        <item>18 year exp</item>
+        <item>19 year exp</item>
+        <item>20 year exp</item>
+        <item>21 year exp</item>
+        <item>22 year exp</item>
+        <item>23 year exp</item>
+        <item>24 year exp</item>
+        <item>25 year exp</item>
+        <item>26 year exp</item>
+        <item>27 year exp</item>
+        <item>28 year exp</item>
+        <item>29 year exp</item>
+        <item>30 year exp</item>
+        <item>31 year exp</item>
+        <item>32 year exp</item>
+        <item>33 year exp</item>
+        <item>34 year exp</item>
+        <item>35 year exp</item>
+        <item>36 year exp</item>
+        <item>37 year exp</item>
+        <item>38 year exp</item>
+        <item>39 year exp</item>
+        <item>40 year exp</item>
+
+    </string-array>
+
+</resources>

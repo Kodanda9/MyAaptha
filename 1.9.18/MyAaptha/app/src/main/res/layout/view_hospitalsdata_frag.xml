@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/form_edit_text_bg"
+    tools:context="com.cpetsol.cpetsolutions.myaaptha.fragment.ViewHospitalsDataaFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+ <LinearLayout
+     android:weightSum="5"
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <ListView
+         android:id="@+id/hospitalsData"
+         android:layout_weight="4.3"
+         android:layout_width="match_parent"
+         android:layout_height="0dp">
+     </ListView>
+     <Button
+         android:id="@+id/button"
+        android:background="@drawable/button_selector_1"
+         android:text="Add TimeSlots"
+         android:layout_weight="0.4"
+         android:layout_gravity="center"
+         android:layout_width="wrap_content"
+         android:layout_height="0dp" />
+     <TextView
+         android:layout_weight="0.3"
+         android:layout_width="match_parent"
+         android:layout_height="0dp" />
+ </LinearLayout>
+
+</LinearLayout>

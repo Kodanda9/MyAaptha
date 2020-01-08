@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="@dimen/font_size"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Drug Name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:layout_gravity="center"
+                android:background="@drawable/draw_edittext_bg"
+                android:id="@+id/drugname_drug"
+                android:textColor="#3399ff"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1.3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Dosage"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:background="@drawable/draw_edittext_bg"
+                android:id="@+id/dosage_drug"
+                android:textColor="#3399ff"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1.3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="price"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:id="@+id/price_drug"
+                android:textColor="#3399ff"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1.3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Quantity"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:id="@+id/quantity_drug"
+                android:textColor="#3399ff"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1.3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="ThresholdQuantity"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:id="@+id/thresholdquantity_drug"
+                android:textColor="#3399ff"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1.3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Discount"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:id="@+id/discout_drug"
+                android:textColor="#3399ff"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1.3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+        </LinearLayout>
+        <Button
+            android:background="#0888a7"
+            android:layout_marginTop="@dimen/font_size"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:id="@+id/drug_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

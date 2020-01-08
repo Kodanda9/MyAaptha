@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/form_edit_text_bg"
+    tools:context="com.cpetsol.cpetsolutions.myaaptha.fragment.Drugs_PricesFragment">
+   <RelativeLayout
+       android:id="@+id/rlsuggestlist"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:visibility="invisible"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:orientation="vertical">
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/emptybox"
+             />
+         <TextView
+             style="@style/textViewStyle"
+             android:gravity="center"
+             android:textSize="@dimen/font_size"
+             android:text="@string/noRecordsFound"
+             android:textColor="@color/insta_blue_bg"/>
+      </LinearLayout>
+
+
+   </RelativeLayout>
+<LinearLayout
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <ListView
+       android:layout_weight="1.8"
+       android:id="@+id/drugs_listview"
+       android:layout_width="match_parent"
+       android:layout_height="0dp">
+   </ListView>
+   <View
+       android:background="@color/gray"
+      android:layout_weight="0.01"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"/>
+   <Button
+       android:layout_weight="0.15"
+       android:background="#428bca"
+       android:textSize="@dimen/font_size"
+       android:id="@+id/addDp"
+       android:layout_gravity="center"
+       android:text="Add Drug Prices"
+       android:layout_width="wrap_content"
+       android:layout_height="0dp" />
+</LinearLayout>
+
+
+</LinearLayout>

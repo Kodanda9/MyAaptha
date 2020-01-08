@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/summer"
+    android:padding="@dimen/padding_x"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1.9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/cancel"
+                android:src="@drawable/cancel"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.8"
+                android:text="Test Name :"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight" />
+            <Spinner
+                android:background="@drawable/draw_edittext_bg"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1.2"
+                android:id="@+id/spinner"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight">
+            </Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.8"
+                android:text="Price at Lab* :"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1.2"
+                android:id="@+id/priceatlab"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight">
+            </EditText>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size"
+            android:layout_weight="0.8"
+            android:text="Price at Home :"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spinnerHeight" />
+        <EditText
+            android:background="@drawable/draw_edittext_bg"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size"
+            android:layout_weight="1.2"
+            android:id="@+id/priceathome"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spinnerHeight">
+        </EditText>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.8"
+                android:text="Discount :"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1.2"
+                android:id="@+id/discount"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight">
+            </EditText>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.8"
+                android:text="Remarks "
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spinnerHeight" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1.2"
+                android:id="@+id/remarks"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/logo_size">
+            </EditText>
+
+        </LinearLayout>
+        <Button
+            android:textColor="@color/white"
+            android:background="@drawable/button_selector_1"
+            android:layout_marginTop="@dimen/font_size"
+            android:layout_gravity="center"
+            android:textSize="@dimen/font_size"
+            android:text="Update"
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

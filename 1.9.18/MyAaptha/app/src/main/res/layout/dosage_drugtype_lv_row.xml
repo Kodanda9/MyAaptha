@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@color/insta_blue_bg"
+            android:weightSum="2"
+            android:id="@+id/titleEdu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+
+                android:layout_gravity="center"
+                android:layout_weight="1.4"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:id="@+id/drugname_drug"
+                android:paddingLeft="@dimen/padding_x2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_faiEdit"
+                    style="@style/userUpdateButton"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_faiDelete"
+                    style="@style/userDeleteButton"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+           android:padding="@dimen/padding_x2"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="DrugType"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/drugType_drug"
+                android:textColor="#3399ff"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+           android:padding="@dimen/padding_x2"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Dosage"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/dosage_drug"
+                android:textColor="#3399ff"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

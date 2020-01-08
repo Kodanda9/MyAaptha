@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/activity_fabexample"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="@dimen/padding_x"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/layoutFABFamilyMembers"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/FamilyMembers"
+                    android:layout_width="@dimen/logo_size"
+                    android:layout_height="@dimen/logo_size"
+                 android:layout_gravity="center"
+                    android:src="@drawable/family"
+                    app:backgroundTint="#FFFF"
+                    app:fabSize="mini" />
+                <TextView
+                    android:gravity="center"
+                    android:textSize="@dimen/font_size"
+                    android:textColor="@color/black"
+                    android:text="Family Members"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/layoutFABFamilyDocter"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/familydocter"
+                    android:layout_width="@dimen/logo_size"
+                    android:layout_height="@dimen/logo_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/doctor"
+                    app:backgroundTint="#FFFF"
+                    app:fabSize="mini" />
+                <TextView
+                    android:gravity="center"
+                    android:textSize="@dimen/font_size"
+                    android:textColor="@color/black"
+                    android:text="Family Doctor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/layoutFABHealthDetails"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/HealthDetails"
+                    android:layout_width="@dimen/logo_size"
+                    android:layout_height="@dimen/logo_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ot"
+                    app:backgroundTint="#FFFF"
+                    app:fabSize="mini" />
+                <TextView
+                    android:gravity="center"
+                    android:textSize="@dimen/font_size"
+                    android:textColor="@color/black"
+                    android:text="Health Details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_marginTop="@dimen/font_size"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/layoutFABUploadDocuments"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/UploadDocuments"
+                android:layout_width="@dimen/logo_size"
+                android:layout_height="@dimen/logo_size"
+                android:layout_gravity="center"
+                android:src="@drawable/upload"
+                app:backgroundTint="#FFFF"
+                />
+            <TextView
+                android:gravity="center"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Upload Documents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/layoutFABEmergencyContacts"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/emergencycontacts"
+                android:layout_width="@dimen/logo_size"
+                android:layout_height="@dimen/logo_size"
+                android:layout_gravity="center"
+                android:src="@drawable/emergencyimg"
+                app:backgroundTint="#FFFF"
+                />
+            <TextView
+                android:gravity="center"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Emergency Contacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/layoutFABPrescription"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/prescription"
+                android:layout_width="@dimen/logo_size"
+                android:layout_height="@dimen/logo_size"
+                android:layout_gravity="center"
+                android:src="@drawable/prescimg"
+                app:backgroundTint="#FFFF"
+                />
+            <TextView
+                android:gravity="center"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Prescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:orientation="vertical"
+            android:id="@+id/layoutFABEmployment"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/Employment"
+                android:layout_width="@dimen/logo_size"
+                android:layout_height="@dimen/logo_size"
+                android:layout_gravity="center"
+                android:src="@drawable/ot"
+                app:backgroundTint="#FFFF"
+                app:fabSize="mini" />
+            <TextView
+                android:gravity="center"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Employment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:orientation="vertical"
+            android:id="@+id/LayoutFABEducation"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/Education"
+                android:layout_width="@dimen/logo_size"
+                android:layout_height="@dimen/logo_size"
+                android:layout_gravity="center"
+                android:src="@drawable/eduimg"
+                app:backgroundTint="#FFFF"
+                app:fabSize="mini" />
+            <TextView
+                android:gravity="center"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Education"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/font_size"
+            android:orientation="vertical"
+            android:id="@+id/layoutFABHealthPolicy"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/HealthPolicy"
+                android:layout_width="@dimen/logo_size"
+                android:layout_height="@dimen/logo_size"
+                android:layout_gravity="center"
+                android:src="@drawable/healthpolicy"
+                app:backgroundTint="#FFFF"
+                app:fabSize="mini" />
+            <TextView
+                android:gravity="center"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Health Policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/layoutFABOtherDetails"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/OtherDetails"
+                    android:layout_width="@dimen/logo_size"
+                    android:layout_height="@dimen/logo_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/other"
+                    app:backgroundTint="#FFFF"
+                    app:fabSize="mini" />
+                <TextView
+                    android:gravity="center"
+                    android:textSize="@dimen/font_size"
+                    android:textColor="@color/black"
+                    android:text="Other Details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutFabSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabSetting"
+            android:background="@color/accent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/ic_action_plus"
+            app:fabSize="normal" />
+
+    </LinearLayout>
+</FrameLayout>

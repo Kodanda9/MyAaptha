@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">MyAaptha</string>
+
+    <string name="aar_playing">Playing</string>
+    <string name="aar_save">Save</string>
+    <string name="aar_paused">Paused</string>
+    <string name="aar_recording">Recording</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit">Submit</string>
+    <string name="forgetPasswordMsg">Forgot password?</string>
+    <string name="registermsgFromLogin">Don\'t have an account? Sign Up</string>
+    <string name="passWord">Password</string>
+    <string name="enterOTP">Enter OTP</string>
+    <string name="authoriseMsg">Authorise the Registration</string>
+    <string name="createAcc">Create Account</string>
+    <string name="hint_name">Full Name</string>
+    <string name="confPassWord">Confirm Password</string>
+    <string name="mobNumb">Mobile Number</string>
+    <string name="recendOTP">Resend OTP</string>
+    <string name="personalDetails">Personal Details</string>
+    <string name="selDate">Select Date</string>
+    <string name="cancelMsg2">DO NOT PRESS BACK OR REFRESH BUTTON IN BROWSER! </string>
+    <string name="our_mission">Our Mission</string>
+    <string name="our_mission_msg">\t\t\t\t We are committed to delivering healthcare as it should
+			be: patient-centered and for the good of all people, no matter
+			their circumstance. To achieve this, we must be active; we must
+			be kind. We must work with integrity, share our skills and
+			never stop learning.</string>
+    <string name="what_we_do"><h3>What We Do</h3></string>
+    <string name="what_we_do_msg">\t\t\t\t The work of Health Care For All (HCFA) combines policy
+					analysis, information referral, personal and legal advocacy,
+					community organizing and public education. Our HelpLine
+					receives tens of thousands of calls from people who need help
+					navigating our health care system. We have our ear to the
+					ground on the most pressing challenges consumers face.</string>
+    <string name="address">Address</string>
+    <string name="cpet_address">
+       Plot No:73 \n Mega Hills,madhapur \n Hyderabad \n
+        Phone No:040-40033369       \n \n
+        Email:info@cpetsol.com     \n     cpetsolutions@gmail.com</string>
+    <string name="contact">Contact</string>
+    <string name="action_search">Search</string>
+    <string name="dr.name">Name</string>
+
+
+    <string name="locality">Locality</string>
+    <string name="edit">Edit</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="empty_password">Invalid</string>
+    <string name="empty_username">Invalid</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="email">Email</string>
+    <string name="i_already_have_a_account">I already have an Account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="email_address">Email</string>
+    <string name="signin">Sign In</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="don_t_have_any_account">Don\'t have an account?</string>
+    <string name="validation_link">Please click on the link sent over the mail to you to validate your Account.</string>
+    <string name="reset_password_info">Please enter your registered Email Id for password reset instructions</string>
+    <string name="skip">Skip</string>
+    <string name="privacy">Privacy</string>
+    <string name="personal">Personal</string>
+    <string name="Public">Public</string>
+    <string name="friends">Friends</string>
+    <string name="relatives">Relatives</string>
+    <string name="user">User</string>
+    <string name="doctor">Doctor</string>
+    <string name="nurse">Nurse</string>
+    <string name="labAsst">Lab Assistant</string>
+    <string name="medShopOwner">Medical Shop Owner</string>
+    <string name="home">Home</string>
+    <string name="articles">Articles</string>
+    <string name="forum">Forum</string>
+    <string name="noRecordsFound">No Records Found</string>
+    <string name="spinner">Spinner</string>
+    <string name="editText">EditText</string>
+    <string name="radioGroup">RadioGroup</string>
+    <string name="pleaseSelectDate">Please Select Date</string>
+    <string name="pleaseSelectItem">Please Select Item</string>
+
+    <string name="fai_home">&#xf015;</string>
+    <string name="fai_search">&#xf002;</string>
+    <string name="fai_refresh">&#xf021;</string>
+    <string name="fai_officeBag">&#xf0b1;</string>
+    <string name="fai_questionCircle">&#xf059;</string>
+    <string name="fai_share">&#xf1e0;</string>
+    <string name="fai_signIn">&#xf090;</string>
+    <string name="fai_signOut">&#xf08b;</string>
+    <string name="fai_female">&#xf182;</string>
+    <string name="fai_profile">&#xf2be;</string>
+    <string name="fai_profile1">&#xf2be;</string>
+    <string name="fai_calender">&#xf073;</string>
+    <string name="fai_email">&#xf199;</string>
+    <string name="fai_key">&#xf084;</string>
+    <string name="fai_lock">&#xf13e;</string>
+    <string name="fai_phNo">&#xf10b;</string>
+    <string name="fai_gender">&#xf10b;</string>
+    <string name="fai_prvacyflag1">&#xf007;</string>
+    <string name="fai_prvacyflag2">&#xf252;</string>
+    <string name="fai_prvacyflag3">&#xf232;</string>
+    <string name="fai_prvacyflag4">&#xf0c0;</string>
+    <string name="fai_graduation">&#xf19d;</string>
+    <string name="fai_edit">&#xf044;</string>
+    <string name="hold">&#xf28d;</string>
+    <string name="fai_delete">&#xf014;</string>
+    <string name="fai_building">&#xf0f7;</string>
+    <string name="fai_university">&#xf19c;</string>
+    <string name="fai_globe">&#xf0ac;</string>
+    <string name="fai_book">&#xf02d;</string>
+    <string name="fai_bookmark">&#xf02e;</string>
+    <string name="fai_people">&#xf0c0;</string>
+    <string name="fai_checkcircle">&#xf058;</string>
+    <string name="fai_check">&#xf00c;</string>
+    <string name="fai_question">&#xf059;</string>
+    <string name="fai_download">&#xf019;</string>
+    <string name="fai_file">&#xf15c;</string>
+    <string name="fai_likes">&#xf164;</string>
+
+    <string name="dr_1">VaraLaxmi .S</string>
+    <string name="position_1">Founder .S</string>
+    <string name="dr_2">Thati Sreelatha</string>
+    <string name="position_2">Founder and CEO</string>
+    <string name="dr_3">Dr. Rambabu SP</string>
+    <string name="position_3">Doctor</string>
+    <string name="dr_4">Arvind Kumar</string>
+    <string name="position_4">BDM</string>
+    <string name="about_us_heading">Our Team</string>
+</resources>

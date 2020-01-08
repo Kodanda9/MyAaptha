@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <AutoCompleteTextView
+            android:hint="DrugName"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size"
+            android:layout_margin="@dimen/font_size"
+            android:id="@+id/auto_drugname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size"
+            android:layout_margin="@dimen/font_size"
+            android:id="@+id/spn_drugtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <Spinner
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size"
+            android:layout_margin="@dimen/font_size"
+            android:id="@+id/spn_dosage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <EditText
+            android:gravity="center"
+            android:hint="Quantity"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size"
+            android:layout_margin="@dimen/font_size"
+        android:id="@+id/et_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <EditText
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size"
+            android:layout_margin="@dimen/font_size"
+            android:id="@+id/et_threshold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size"
+            android:layout_margin="@dimen/font_size"
+            android:id="@+id/spn_agencyname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <EditText
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size"
+            android:layout_margin="@dimen/font_size"
+            android:id="@+id/et_remarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_gravity="center"
+            android:textSize="@dimen/font_size"
+            android:layout_margin="@dimen/font_size"
+            android:text="Save Stock Details"
+            android:background="#3bafda"
+            android:id="@+id/savestock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

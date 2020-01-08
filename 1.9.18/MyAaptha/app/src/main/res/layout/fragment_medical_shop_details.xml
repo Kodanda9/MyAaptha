@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_medical_shop_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:padding="@dimen/padding_x2"
+    android:background="@drawable/form_edit_text_bg"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+  android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/lightgray"
+         android:weightSum="2"
+            android:orientation="horizontal"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/padding_x2"
+                android:layout_weight="0.7"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Medical Shop Owner Name :" 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:padding="@dimen/padding_x2"
+                android:layout_weight="1.3"
+                android:id="@+id/medName"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/lightgrayedittextbox"
+                   android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/fall"
+           android:weightSum="2"
+            android:layout_marginTop="@dimen/padding_x2"
+            android:orientation="horizontal"
+      android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/padding_x2"
+                android:layout_weight="0.7"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Name Of the Medical Shop::"
+          android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:padding="@dimen/padding_x2"
+                android:id="@+id/medShopNm"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/orangeedittextbox"
+            android:layout_weight="1.3"
+          android:layout_width="0dp"
+             android:layout_height="@dimen/editTextHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/lightgray"
+           android:weightSum="2"
+            android:layout_marginTop="@dimen/padding_x2"
+            android:orientation="horizontal"
+      android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/padding_x2"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Medical Shop Registration No*:"
+               android:layout_weight="0.7"
+          android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:padding="@dimen/padding_x2"
+                android:id="@+id/medShpRegNo"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/lightgrayedittextbox"
+             android:layout_weight="1.3"
+             android:layout_width="0dp"
+             android:layout_height="@dimen/editTextHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/fall"
+            android:weightSum="2"
+            android:layout_marginTop="@dimen/padding_x2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/padding_x2"
+                android:layout_weight="0.7"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Approved By*:"
+               android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:padding="@dimen/padding_x2"
+                android:layout_weight="1.3"
+                android:id="@+id/apprvBy"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/orangeedittextbox"
+             android:layout_width="0dp"
+             android:layout_height="@dimen/editTextHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/lightgray"
+            android:weightSum="2"
+            android:layout_marginTop="@dimen/padding_x2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/padding_x2"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Year of Registration*:"
+             android:layout_weight="0.7"
+             android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:padding="@dimen/padding_x2"
+                android:layout_weight="1.3"
+                android:id="@+id/regYr"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/lightgrayedittextbox"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/fall"
+            android:weightSum="2"
+            android:layout_marginTop="@dimen/padding_x2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/padding_x2"
+               android:layout_weight="0.7"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="Qualification Year*:"
+             android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:padding="@dimen/padding_x2"
+                android:id="@+id/QualYr"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/orangeedittextbox"
+             android:layout_weight="1.3"
+             android:layout_width="0dp"
+             android:layout_height="@dimen/editTextHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+           
+            android:layout_marginTop="@dimen/padding_x2"
+          android:background="@color/lightgray"
+            android:orientation="horizontal"
+      android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/padding_x2"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="State:"
+             android:layout_weight="0.7"
+             android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:padding="@dimen/padding_x2"
+                android:id="@+id/state"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:background="@drawable/lightgrayedittextbox"
+             android:layout_weight="1.3"
+             android:layout_width="0dp"
+             android:layout_height="@dimen/editTextHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+           android:weightSum="2"
+            android:layout_marginTop="@dimen/padding_x2"
+          android:background="@color/fall"
+
+            android:orientation="horizontal"
+      android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/padding_x2"
+                android:textSize="@dimen/font_size"
+                android:layout_gravity="center"
+                android:text="District:"
+             android:layout_weight="0.7"
+             android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:padding="@dimen/padding_x2"
+                android:layout_weight="1.3"
+                android:id="@+id/district"
+                android:layout_gravity="center"
+                android:textSize="@dimen/font_size"
+             android:background="@drawable/orangeedittextbox"
+             android:layout_width="0dp"
+             android:layout_height="@dimen/editTextHeight" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/submit"
+            android:textSize="@dimen/font_size"
+            android:background="@drawable/button_selector_1"
+            android:layout_marginTop="@dimen/font_size"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/update"
+            android:textSize="@dimen/font_size"
+            android:background="#0888a7"
+            android:layout_marginTop="@dimen/padding_x2"
+            android:layout_gravity="center"
+            android:text="Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</ScrollView>

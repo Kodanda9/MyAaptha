@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:iconTint="@color/white"
+        android:iconTintMode="multiply"
+        android:id="@+id/bottom_nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/bottom_nav_actical"
+        android:icon="@drawable/ic_library_books"
+        android:title="Article" />
+
+    <item
+        android:id="@+id/bottom_nav_forum"
+        android:icon="@drawable/ic_forum"
+        android:title="Forum" />
+    <item
+        android:id="@+id/bottom_nav_account"
+        android:icon="@drawable/ic_person"
+        android:title="Account" />
+
+</menu>

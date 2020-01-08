@@ -1,0 +1,379 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_logo"
+                    android:layout_width="@dimen/logo_size"
+                    android:layout_height="@dimen/backButtonWidth"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo"
+                    android:contentDescription="image"
+                    android:visibility="gone"/>
+
+                <TextView
+                    style="@style/TextviewStyle"
+                    android:text="Welcome"
+                    android:textSize="@dimen/tvHeading"
+                    android:padding="@dimen/font_size"
+                    android:visibility="gone"
+                    android:layout_marginBottom="@dimen/margin_x"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginLeft="@dimen/TILMargin"
+                    android:layout_marginRight="@dimen/TILMargin"
+                    android:layout_marginTop="@dimen/TILMarginTD"
+                    android:layout_marginBottom="@dimen/TILMarginTD"
+                    android:padding="0dp">
+                    <TextView
+                        android:id="@+id/tvfoiFullName"
+                        android:layout_width="30dp"
+                        style="@style/faiStyles"
+                        android:text="@string/fai_profile"
+                        android:textColor="@color/black"/>
+                    <EditText
+                        android:id="@+id/et_fullName"
+                        style="@style/TextInputLayoutStyle"
+                        android:hint="Full Name"
+                        android:textColorHint="@color/mytheme_secondary"
+                        android:textColor="@color/black"
+                        android:gravity="start|center_vertical"
+                        />
+
+                    <!--<android.support.design.widget.TextInputLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">-->
+                        <!--<EditText-->
+                            <!--android:id="@+id/et_fullName"-->
+                            <!--style="@style/TextInputLayoutStyle"-->
+                            <!--android:hint="Full Name"-->
+                            <!--android:textColorHint="@color/mytheme_secondary"-->
+                            <!--android:textColor="@color/black"-->
+                            <!--android:gravity="start|center_vertical"-->
+                            <!--/>-->
+                    <!--</android.support.design.widget.TextInputLayout>-->
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginLeft="@dimen/TILMargin"
+                    android:layout_marginRight="@dimen/TILMargin"
+                    android:layout_marginTop="@dimen/TILMarginTD"
+                    android:layout_marginBottom="@dimen/TILMarginTD"
+                    android:padding="0dp">
+                    <TextView
+                        android:id="@+id/tvfoiPsw"
+                        android:layout_width="@dimen/spinnerHeight"
+                        style="@style/faiStyles"
+                        android:text="@string/fai_key"
+                        android:textColor="@color/black"/>
+                    <EditText
+                        android:id="@+id/et_password"
+                        style="@style/TextInputLayoutStyle"
+                        android:hint="Password"
+                        android:textColorHint="@color/mytheme_secondary"
+                        android:textColor="@color/black"
+                        android:inputType="textPassword"
+                        android:gravity="start|center_vertical"
+                        />
+
+                    <!--<android.support.design.widget.TextInputLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">-->
+                        <!--<EditText-->
+                            <!--android:id="@+id/et_password"-->
+                            <!--style="@style/TextInputLayoutStyle"-->
+                            <!--android:hint="Password"-->
+                            <!--android:textColorHint="@color/mytheme_secondary"-->
+                            <!--android:textColor="@color/black"-->
+                            <!--android:inputType="textPassword"-->
+                            <!--android:gravity="start|center_vertical"-->
+                            <!--/>-->
+                    <!--</android.support.design.widget.TextInputLayout>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="@dimen/TILMargin"
+                    android:layout_marginRight="@dimen/TILMargin"
+                    android:layout_marginTop="@dimen/TILMarginTD"
+                    android:layout_marginBottom="@dimen/TILMarginTD">
+                    <RadioGroup
+                        android:id="@+id/radioGenderGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:theme="@style/MyRadioButton"
+                        android:padding="@dimen/padding_x2"
+                        android:weightSum="3">
+                        <RadioButton
+                            android:id="@+id/radioMale"
+                            style="@style/maleRadioButton"
+                            android:layout_weight="1"
+                            android:textColor="@color/black"
+                            android:buttonTint="@color/black"
+                            />
+                        <RadioButton
+                            android:id="@+id/radioFemale"
+                            style="@style/feMaleRadioButton"
+                            android:textColor="@color/black"
+                            android:buttonTint="@color/black"
+                            android:layout_weight="1"/>
+                        <RadioButton
+                            android:id="@+id/radioOther"
+                            style="@style/otherRadioButton"
+                            android:textColor="@color/black"
+                            android:buttonTint="@color/black"
+                            android:layout_weight="1"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginLeft="@dimen/TILMargin"
+                    android:layout_marginRight="@dimen/TILMargin"
+                    android:layout_marginTop="@dimen/TILMarginTD"
+                    android:layout_marginBottom="@dimen/TILMarginTD"
+                    android:padding="0dp">
+                    <TextView
+                        android:id="@+id/tvfoiMobNo"
+                        android:layout_width="@dimen/spinnerHeight"
+                        style="@style/faiStyles"
+                        android:text="@string/fai_phNo"
+                        android:textColor="@color/black"/>
+                    <EditText
+                        android:id="@+id/et_mobNumb"
+                        style="@style/TextInputLayoutStyle"
+                        android:hint="Mobile Number"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/mytheme_secondary"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:gravity="start|center_vertical"
+                        />
+
+                    <!--<android.support.design.widget.TextInputLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">-->
+                        <!--<EditText-->
+                            <!--android:id="@+id/et_mobNumb"-->
+                            <!--style="@style/TextInputLayoutStyle"-->
+                            <!--android:hint="Mobile Number"-->
+                            <!--android:textColor="@color/black"-->
+                            <!--android:textColorHint="@color/mytheme_secondary"-->
+                            <!--android:inputType="phone"-->
+                            <!--android:maxLength="10"-->
+                            <!--android:gravity="start|center_vertical"-->
+                            <!--/>-->
+                    <!--</android.support.design.widget.TextInputLayout>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/TILMargin"
+                    android:layout_marginRight="@dimen/TILMargin"
+                    android:layout_marginTop="@dimen/TILMarginTD"
+                    android:layout_marginBottom="@dimen/TILMarginTD"
+                    android:background="@drawable/draw_edittext_bg">
+                    <Spinner
+                        android:id="@+id/sCountry"
+                        style="@style/SpinnerStyle"
+                        ></Spinner>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/TILMargin"
+                    android:layout_marginRight="@dimen/TILMargin"
+                    android:layout_marginTop="@dimen/TILMarginTD"
+                    android:layout_marginBottom="@dimen/TILMarginTD"
+                    android:background="@drawable/draw_edittext_bg">
+                    <Spinner
+                        android:id="@+id/sState"
+                        style="@style/SpinnerStyle"
+                        ></Spinner>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/TILMargin"
+                    android:layout_marginRight="@dimen/TILMargin"
+                    android:layout_marginTop="@dimen/TILMarginTD"
+                    android:layout_marginBottom="@dimen/TILMarginTD"
+                    android:background="@drawable/draw_edittext_bg">
+                    <Spinner
+                        android:id="@+id/sDist"
+                        style="@style/SpinnerStyle"
+                        ></Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llProfession"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/TILMargin"
+                    android:layout_marginRight="@dimen/TILMargin"
+                    android:layout_marginTop="@dimen/TILMarginTD"
+                    android:layout_marginBottom="@dimen/TILMarginTD">
+
+                    <TextView
+                        style="@style/textViewStyle"
+                        android:gravity="center"
+                        android:text="Profession"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radioProfession"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="5">
+
+                        <RadioButton
+                            android:id="@+id/radioUser"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/black"
+                            android:buttonTint="@color/black"
+                            android:text="@string/user" />
+
+                        <RadioButton
+                            android:id="@+id/radioDoctor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:buttonTint="@color/black"
+                            android:layout_weight="1"
+                            android:text="@string/doctor" />
+
+                        <RadioButton
+                            android:id="@+id/radioNurse"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/black"
+                            android:buttonTint="@color/black"
+                            android:text="@string/nurse" />
+
+                        <RadioButton
+                            android:id="@+id/radioLabAssistant"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/black"
+                            android:buttonTint="@color/black"
+                            android:text="@string/labAsst" />
+
+                        <RadioButton
+                            android:id="@+id/radioMedShopOwner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:buttonTint="@color/black"
+                            android:layout_weight="1"
+                            android:text="@string/medShopOwner" />
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_x2">
+                    <Button
+                        android:id="@+id/signUp"
+                        android:background="@drawable/button_selector_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sign_up"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/TILMargin"
+                    android:layout_marginRight="@dimen/TILMargin"
+                    android:layout_marginTop="@dimen/TILMarginTD"
+                    android:layout_marginBottom="@dimen/editTextHeight"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:text="Already have an account?"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="@dimen/margin_x"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/tvSignIn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:textColor="@color/black"
+                            android:text="Sign in"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/cardElevation"
+                            android:background="@color/mytheme_secondary"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+</LinearLayout>

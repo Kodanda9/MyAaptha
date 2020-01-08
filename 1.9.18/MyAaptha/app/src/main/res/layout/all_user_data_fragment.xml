@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.cpetsol.cpetsolutions.myaaptha.fragment.AllUserData">
+    <include layout="@layout/add_user_details"/>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:id="@+id/pullToRefresh"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form_edit_text_bg">
+        <ListView
+            android:id="@+id/lvAlluserData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <RelativeLayout
+        android:background="@color/app_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|bottom"
+        android:padding="@dimen/cardCornerRadius"
+        android:visibility="gone"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_addData"
+            android:layout_width="wrap_content"
+            android:background="@color/accent"
+            android:backgroundTint="@color/accent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/ic_action_plus"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

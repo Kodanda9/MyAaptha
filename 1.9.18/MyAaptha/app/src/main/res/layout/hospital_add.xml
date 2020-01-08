@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/form_edit_text_bg" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:background="@color/blue_aboutUs"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size"
+            android:text="Hospital Registration form"
+            android:layout_weight="1.8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/cancel"
+            android:src="@drawable/cancel"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="@dimen/cardCornerRadius"
+       android:background="@drawable/form_edit_text_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="HospitalName"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:textSize="@dimen/font_size"
+                android:textColor="#3399FF"
+                android:id="@+id/hospitalname"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Registration Number"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@drawable/lightgrayedittextbox"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <EditText
+
+                android:textSize="@dimen/font_size"
+                android:textColor="#3399FF"
+                android:id="@+id/regnumber"
+
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Registration Year"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+              
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:layout_height="@dimen/editTextHeight"
+                android:layout_width="match_parent"
+                android:id="@+id/et_Date"
+                style="@style/date_field"
+                android:hint="Select Date"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Registration Office"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/lightgrayedittextbox"
+                android:textSize="@dimen/font_size"
+                android:textColor="#3399FF"
+                android:id="@+id/roc"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="MobileNo."
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:textSize="@dimen/font_size"
+                android:textColor="#3399FF"
+                android:id="@+id/mobile"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Telephone no."
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/lightgrayedittextbox"
+                android:textSize="@dimen/font_size"
+                android:textColor="#3399FF"
+                android:id="@+id/telephone"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="City"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:background="@drawable/draw_edittext_bg"
+                android:textSize="@dimen/font_size"
+                android:textColor="#3399FF"
+                android:id="@+id/city"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+
+
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Locality"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:textSize="@dimen/font_size"
+                android:textColor="#3399FF"
+                android:id="@+id/locality"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Address"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/lightgrayedittextbox"
+                android:textSize="@dimen/font_size"
+                android:textColor="#3399FF"
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_img_size" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Longitude"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:textSize="@dimen/font_size"
+                android:textColor="#3399FF"
+                android:id="@+id/longitude"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="AboutHospital"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/lightgrayedittextbox"
+                android:textSize="@dimen/font_size"
+                android:textColor="#3399FF"
+                android:id="@+id/abouthsp"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/header_img_size" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:text="Website URL"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=":"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/draw_edittext_bg"
+                android:textSize="@dimen/font_size"
+                android:textColor="#3399FF"
+                android:id="@+id/url"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_marginTop="@dimen/padding_x"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:background="@drawable/button_selector_1"
+                android:id="@+id/submit"
+                android:textSize="@dimen/font_size"
+                android:text="Submit"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:visibility="gone"
+                android:text="Update"
+                android:background="@drawable/button_selector_1"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/update"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

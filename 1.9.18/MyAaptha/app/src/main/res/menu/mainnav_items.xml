@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="settings"
+        android:icon="@drawable/profile_male"
+        app:showAsAction="always"
+        android:visible="false">
+
+        <menu>
+            <item android:id="@+id/action_menu1"
+                android:icon="@drawable/ic_account"
+                android:title="@string/personalDetails"
+                />
+            <item android:id="@+id/action_menu2"
+                android:icon="@drawable/ic_phone_android"
+                android:title="Change Mobile Number" />
+            <item android:id="@+id/action_changepsw"
+                android:icon="@drawable/ic_lock"
+                android:title="Change Password" />
+            <item android:id="@+id/action_menu3"
+                android:icon="@drawable/logout"
+                android:title="LOGOUT" />
+        </menu>
+    </item>
+
+</menu>

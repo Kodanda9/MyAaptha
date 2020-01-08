@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/form_edit_text_bg"
+        android:layout_margin="@dimen/TILMargin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:padding="@dimen/padding_x2"
+            >
+            <TextView
+                style="@style/LayoutHeadings"
+                android:text="Add Data"
+                android:textSize="@dimen/tvHeading"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/closeDialog"
+                style="@style/backfrag_button_submit"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:src="@drawable/cancel"/>
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/padding_x2"
+            android:background="@drawable/form_edit_text_bg">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/form_edit_text_bg"
+                    android:layout_margin="@dimen/cardElevation">
+
+                    <Spinner
+                        android:id="@+id/sDocCategory"
+                        style="@style/SpinnerStyle"
+                        android:entries="@array/sAddDataList"></Spinner>
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/userdata_content_frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

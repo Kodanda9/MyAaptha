@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <LinearLayout
+      android:id="@+id/linear_logsign"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/editTextHeight"
+      android:visibility="visible"
+      android:background="@color/abs__bright_foreground_disabled_holo_dark"
+      android:paddingTop="@dimen/view_width"
+      android:paddingBottom="0dp"
+      android:paddingLeft="@dimen/view_width"
+      android:paddingRight="@dimen/view_width"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/tab1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/abs__bright_foreground_disabled_holo_dark"
+        android:text="Dr.-Dr."
+        android:layout_marginRight="@dimen/view_width"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="@dimen/view_width"
+        android:background="@color/abs__bright_foreground_disabled_holo_dark"
+        android:text="Dr.-Reply" />
+    <Button
+        android:id="@+id/tab3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/abs__bright_foreground_disabled_holo_dark"
+        android:text="AnyOne" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <ListView
+          android:id="@+id/forumlist"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+      </ListView>
+      <RelativeLayout
+          android:id="@+id/rlsuggestlist"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:visibility="invisible">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/emptybox"
+              />
+          <TextView
+              style="@style/textViewStyle"
+              android:gravity="center"
+              android:text="@string/noRecordsFound"
+              android:textColor="@color/insta_blue_bg"/>
+        </LinearLayout>
+      </RelativeLayout>
+
+
+    </RelativeLayout>
+  </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

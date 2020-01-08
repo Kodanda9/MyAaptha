@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="@dimen/padding_x2"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/name"
+    android:textSize="@dimen/font_size"
+    android:textColor="@color/blue_aboutUs"
+    android:layout_weight="1.1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/font_size"
+            android:textColor="@color/brown"
+            android:id="@+id/relation"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginLeft="@dimen/font_size"
+            android:background="@drawable/form_greenbox"
+android:textSize="@dimen/font_sizedesc"
+            android:id="@+id/msg"
+            android:text="Message"
+            android:layout_weight="0.6"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spinnerHeight" />
+    </LinearLayout>
+</LinearLayout>

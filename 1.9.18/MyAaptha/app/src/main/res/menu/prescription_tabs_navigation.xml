@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab1"
+        android:checked="true"
+        android:icon="@drawable/ic_query_builder_black_24dp"
+        android:title="History"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab2"
+        android:checked="false"
+        android:icon="@drawable/ic_import_contacts_black_24dp"
+        android:title="Education"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab3"
+        android:checked="false"
+        android:icon="@drawable/ic_directions_walk_black_24dp"
+        android:title="Employment"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab4"
+        android:checked="false"
+        android:icon="@drawable/drreports"
+        android:title="InnerPrescription"
+        app:showAsAction="ifRoom" />
+</menu>

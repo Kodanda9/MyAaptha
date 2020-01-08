@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="wrap_content">
+<LinearLayout
+
+    android:background="@drawable/form_edit_text_bg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_weight="1.8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/cancel"
+            android:src="@drawable/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="@dimen/padding_x2"
+        android:layout_marginTop="@dimen/padding_x2"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size"
+            android:text="Hospitals"
+            android:layout_weight="0.6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Spinner
+
+            android:background="@drawable/draw_edittext_bg"
+            android:id="@+id/hospitals"
+            android:layout_weight="1.4"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/editTextHeight">
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="@dimen/padding_x2"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size"
+            android:text="Employ Type"
+            android:layout_weight="0.6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:background="@drawable/draw_edittext_bg"
+            android:id="@+id/employmenttype"
+            android:layout_weight="1.4"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/editTextHeight">
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+       android:padding="@dimen/padding_x2"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size"
+            android:text="Employee Name"
+            android:layout_weight="0.6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:background="@drawable/draw_edittext_bg"
+            android:id="@+id/employ"
+            android:layout_weight="1.4"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/editTextHeight">
+        </Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="@dimen/padding_x2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/font_size"
+            android:textColor="@color/black"
+            android:text="Remarks"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+           android:padding="@dimen/padding_x2"
+            android:background="@drawable/draw_edittext_bg"
+            android:id="@+id/remarks"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/logo_size">
+        </EditText>
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_marginTop="@dimen/font_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        <Button
+            android:textSize="@dimen/font_size"
+            android:layout_weight="1"
+            android:id="@+id/Submit"
+            android:background="@drawable/button_selector_1"
+            android:text="Submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

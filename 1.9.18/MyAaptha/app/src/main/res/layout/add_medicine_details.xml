@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_x">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/draw_edittext_bg"
+        android:padding="@dimen/padding_x2">
+
+
+        <LinearLayout
+            style="@style/ll_date"
+            android:weightSum="3">
+            <TextView
+                style="@style/text_date"
+                android:layout_weight="2"
+                android:text="Drug Name" />
+            <AutoCompleteTextView
+                android:background="@drawable/draw_edittext_bg"
+                android:id="@+id/etDrugName"
+                style="@style/EditTextView"
+                android:layout_weight="1"
+                android:hint="Drug Name" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ll_date"
+            android:weightSum="3">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <TextView
+                    style="@style/text_date"
+                    android:text="Drug Type" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/draw_edittext_bg"
+
+                    >
+                    <Spinner
+
+                        android:id="@+id/sDrugType"
+                        style="@style/SpinnerStyle"
+                        ></Spinner>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/ll_date"
+            android:weightSum="3">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <TextView
+                    style="@style/text_date"
+                    android:text="Dosage" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/draw_edittext_bg"
+                    >
+                    <Spinner
+                        android:id="@+id/sDosage"
+                        style="@style/SpinnerStyle"
+                        ></Spinner>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ll_date"
+            android:weightSum="3">
+            <TextView
+                style="@style/text_date"
+                android:layout_weight="2"
+                android:text="Quantity" />
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/draw_edittext_bg"
+                >
+            <Spinner
+                android:id="@+id/etQuantity"
+                style="@style/SpinnerStyle"
+                />
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:background="@drawable/draw_edittext_bg"
+            android:id="@+id/et_desc"
+            style="@style/EditTextView"
+            android:layout_height="@dimen/logo_size"
+            android:gravity="start"
+            android:hint="Instructions" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:background="@drawable/button_selector_1"
+                android:id="@+id/addMedTestBtn"
+                style="@style/mainBlockButton"
+                android:text="Add"
+                >
+
+            </Button>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

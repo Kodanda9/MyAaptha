@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lightgray"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:id="@+id/activity_prescription_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cpetsol.cpetsolutions.myaaptha.activity.PrescriptionPage">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/insta_blue_bg"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            android:background="@drawable/orangeedittextbox"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/padding_x2"
+                android:textSize="@dimen/layoutHeadings"
+                android:textColor="@color/orange"
+                android:id="@+id/drname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:padding="@dimen/padding_x2"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/specialization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:padding="@dimen/padding_x2"
+                android:layout_weight="1.5"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/adress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_margin="@dimen/padding_x2"
+                android:background="@drawable/draw_edittext_bg"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:padding="@dimen/padding_x2"
+                    android:textColor="@color/blue_aboutUs"
+                    android:textSize="@dimen/font_size"
+                    android:layout_weight="1"
+                    android:text="PatientName:"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/black"
+                    android:padding="@dimen/padding_x2"
+                    android:textSize="@dimen/font_size"
+                    android:id="@+id/patientname"
+                    android:layout_weight="1.8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                </LinearLayout>
+            <TextView
+                android:textColor="@color/black"
+                android:padding="@dimen/padding_x2"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            android:background="@drawable/orangeedittextbox"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:padding="@dimen/padding_x2"
+                android:textColor="@color/blue_aboutUs"
+                android:textSize="@dimen/font_size"
+                android:text="Complaints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:padding="@dimen/padding_x2"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/complaints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            android:background="@drawable/draw_edittext_bg"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:padding="@dimen/padding_x2"
+                android:textColor="@color/blue_aboutUs"
+                android:textSize="@dimen/font_size"
+                android:text="Docter Obserevation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/black"
+                android:padding="@dimen/padding_x2"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/drobservation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_margin="@dimen/padding_x2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:backgroundTint="@color/insta_blue_bg"
+                android:background="@drawable/button_selector_1"
+                android:layout_weight="0.8"
+                android:id="@+id/medication"
+                android:padding="@dimen/padding_x2"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:text="Medication"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+            <TextView
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="center"
+                android:backgroundTint="@color/orange"
+                android:background="@drawable/button_selector_1"
+                android:layout_weight="0.8"
+                android:id="@+id/labtests"
+                android:padding="@dimen/padding_x2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:text="Lab Tests"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/editTextHeight" />
+        </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+   <!-- </ListView>-->
+

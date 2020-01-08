@@ -1,0 +1,134 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/margin_x"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textSize="@dimen/tvHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="@dimen/margin_x" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/cardElevation"
+            android:layout_marginRight="@dimen/cardElevation">
+
+
+            <LinearLayout
+                style="@style/ll_date"
+                android:weightSum="2"
+                >
+                <TextView
+                    android:textSize="@dimen/font_size"
+                    android:id="@+id/tvName"
+                   android:layout_width="0dp"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:layout_weight="0.6"
+                    android:text="Name" />
+                <EditText
+                    android:layout_height="@dimen/editTextHeight"
+                    android:layout_width="0dp"
+                    android:background="@drawable/form_edit_text_bg"
+                    android:id="@+id/edName"
+                    android:textSize="@dimen/font_size"
+                    android:hint="Full Name"
+                 android:gravity="center"
+                    android:layout_weight="1.35"/>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/ll_date"
+                android:weightSum="2"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/spinnerHeight"
+                   android:textSize="@dimen/font_size"
+                    android:layout_weight="0.6"
+                    android:text="Email"/>
+                <EditText
+                    android:textSize="@dimen/font_size"
+                    android:id="@+id/edEmail"
+                    android:layout_height="@dimen/editTextHeight"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:background="@drawable/form_edit_text_bg"
+                    android:hint="@string/email"
+                    android:layout_weight="1.35"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="@dimen/cardElevation"
+                style="@style/text_date"
+                android:text="Want to ask?"
+                android:layout_marginLeft="@dimen/padding_x2"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_x2">
+
+                <EditText
+                    android:id="@+id/edmsg"
+                    style="@style/EditTextView"
+                    android:layout_height="@dimen/header_img_size"
+                    android:hint="message"
+                    android:singleLine="false"
+                    android:maxLines="6"
+                    android:gravity="start"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+                <Button
+                    android:background="@drawable/button_selector_1"
+                    android:id="@+id/contact_submit"
+                    style="@style/cust_button"
+                    android:text="@string/submit"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_x"
+            android:text="@string/address"
+            android:layout_marginLeft="@dimen/margin_x"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_x2"
+            android:layout_marginLeft="@dimen/tvHeading"
+            android:layout_marginRight="@dimen/margin_x"
+            android:background="@drawable/form_edit_text_bg"
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/text_date"
+                android:text="@string/cpet_address"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

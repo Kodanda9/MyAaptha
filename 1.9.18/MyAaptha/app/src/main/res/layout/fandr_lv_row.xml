@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/frName"
+                    style="@style/textViewStyle"
+                    android:textColor="@color/insta_blue_bg"
+                    android:layout_weight="1.05"
+                    />
+                <TextView
+                    android:backgroundTint="@color/green_std"
+                    android:layout_height="@dimen/spinnerHeight"
+                    android:padding="0dp"
+                    android:layout_width="0dp"
+                    android:textColor="@color/insta_blue_bg"
+                    android:id="@+id/frRelation"
+                    style="@style/textViewStyle"
+                    android:layout_weight="0.3"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/font_size"
+                    android:layout_height="@dimen/spinnerHeight"
+                    android:layout_weight="0.55"
+                    android:id="@+id/btnUnFriend"
+                    android:text="Un Friend"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size"
+                    android:background="@drawable/button_selector_1"
+                    android:layout_width="0dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rlsuggestlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/emptybox"
+                />
+            <TextView
+                style="@style/textViewStyle"
+                android:gravity="center"
+                android:textSize="@dimen/font_size"
+                android:text="@string/noRecordsFound"
+                android:textColor="@color/insta_blue_bg"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

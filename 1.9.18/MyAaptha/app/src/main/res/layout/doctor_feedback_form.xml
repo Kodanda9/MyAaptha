@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/insta_blue_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/insta_blue_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:padding="@dimen/padding_x2"
+        >
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            style="@style/LayoutHeadings"
+            android:text="Feedback"
+            android:textSize="@dimen/tvHeading"
+            android:layout_weight="1.9"
+            android:id="@+id/textView5" />
+        <ImageView
+            android:layout_width="0dp"
+            android:id="@+id/closeDialog"
+            style="@style/backfrag_button_submit"
+            android:layout_weight="0.1"
+            android:padding="0dp"
+            android:src="@drawable/cancel"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_weight="0.5"
+            android:src="@drawable/doctor"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/logo_size"
+            android:id="@+id/imageView3" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size"
+            android:id="@+id/drname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/specialization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_margin="@dimen/padding_x2"
+    android:background="@drawable/lightgrayedittextbox"
+    android:padding="@dimen/padding_x2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="Would you like to recommend the doctor?*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/radioSNGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:theme="@style/MyRadioButton"
+        android:weightSum="2">
+        <RadioButton
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Yes"
+            android:layout_weight="1"
+            android:id="@+id/yes"
+           android:layout_height="wrap_content"
+            android:layout_width="0dp" />
+        <RadioButton
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="No"
+            android:layout_width="0dp"
+            android:id="@+id/no"
+          android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </RadioGroup>
+</LinearLayout>
+    <LinearLayout
+        android:layout_margin="@dimen/padding_x2"
+        android:background="@drawable/draw_edittext_bg"
+        android:padding="@dimen/padding_x2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Which clinic did you visit*?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+       <EditText
+           android:id="@+id/clinic"
+          android:background="@drawable/form_edit_text_bg"
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/editTextHeight" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="@dimen/padding_x2"
+        android:background="@drawable/lightgrayedittextbox"
+        android:padding="@dimen/padding_x2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="For what health problem / treatment did you visit the doctor? "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/problems"
+             android:background="@drawable/form_edit_text_bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editTextHeight" />
+
+    </LinearLayout>
+   <LinearLayout
+       android:layout_margin="@dimen/padding_x2"
+       android:background="@drawable/draw_edittext_bg"
+       android:padding="@dimen/padding_x2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="Tell us about your experience with the doctor "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/abourdr"
+         android:background="@drawable/form_edit_text_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editTextHeight" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_margin="@dimen/padding_x2"
+        android:background="@drawable/lightgrayedittextbox"
+        android:padding="@dimen/padding_x2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="What were you most happy with?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <CheckBox
+               android:id="@+id/checkBox1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:text="Treatment Satisfaction" />
+           <CheckBox
+               android:id="@+id/checkBox2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Explanation Of the Health Issu" />
+
+           <CheckBox
+               android:id="@+id/checkBox3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Doctor Friendliness" />
+           <CheckBox
+               android:id="@+id/checkBox4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:text="Value for Money  " />
+           <CheckBox
+               android:id="@+id/checkBox5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Wait Time" />
+       </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="@dimen/padding_x2"
+        android:background="@drawable/draw_edittext_bg"
+        android:padding="@dimen/padding_x2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Would you like to recommend the doctor?*"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/radioReviewGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:theme="@style/MyRadioButton"
+            android:weightSum="5">
+            <RadioButton
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="1"
+                android:layout_weight="1"
+                android:id="@+id/rb1"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp" />
+            <RadioButton
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="2"
+                android:layout_width="0dp"
+                android:id="@+id/rb2"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="3"
+                android:layout_width="0dp"
+                android:id="@+id/rb3"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="4"
+                android:layout_width="0dp"
+                android:id="@+id/rb4"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="5"
+                android:layout_width="0dp"
+                android:id="@+id/rb5"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </RadioGroup>
+    </LinearLayout>
+<Button
+    android:text="Submit"
+    android:id="@+id/Submit"
+    android:background="@drawable/button_selector_1"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/spinnerHeight" />
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

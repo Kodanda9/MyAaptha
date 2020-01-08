@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:padding="@dimen/padding_x2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/layoutHeadings"
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:padding="@dimen/padding_x2"
+        android:textSize="@dimen/font_size1"
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</LinearLayout>

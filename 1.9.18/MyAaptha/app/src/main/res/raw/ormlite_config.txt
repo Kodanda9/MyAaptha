@@ -1,0 +1,206 @@
+# --table-start--
+dataClass=com.cpetsol.cpetsolutions.myaaptha.dbmodel.UserDataDTO
+tableName=userdata_details
+# --field-end--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=files
+columnName=files
+# --field-end--
+# --field-start--
+fieldName=familyNames
+columnName=familyNames
+# --field-end--
+# --field-start--
+fieldName=name
+columnName=name
+# --field-end--
+# --field-start--
+fieldName=documentCategory
+columnName=documentCategory
+# --field-end--
+# --field-start--
+fieldName=details
+columnName=details
+# --field-end--
+# --field-start--
+fieldName=documents
+columnName=documents
+# --field-end--
+# --field-start--
+fieldName=number
+columnName=number
+# --field-end--
+# --field-start--
+fieldName=date
+columnName=date
+# --field-end--
+# --field-start--
+fieldName=companyName
+columnName=companyName
+# --field-end--
+# --field-start--
+fieldName=category
+columnName=category
+# --field-end--
+# --field-start--
+fieldName=title
+columnName=title
+# --field-end--
+# --field-start--
+fieldName=qualification
+columnName=qualification
+# --field-end--
+# --field-start--
+fieldName=doctorName
+columnName=doctorName
+# --field-end--
+# --field-start--
+fieldName=specailization
+columnName=specailization
+# --field-end--
+# --field-start--
+fieldName=view
+columnName=view
+# --field-end--
+# --field-start--
+fieldName=fileName
+columnName=fileName
+# --field-end--
+# --field-start--
+fieldName=relation
+columnName=relation
+# --field-end--
+# --field-start--
+fieldName=gender
+columnName=gender
+# --field-end--
+# --field-start--
+fieldName=dno
+columnName=dno
+# --field-end--
+# --field-start--
+fieldName=insurerType
+columnName=insurerType
+# --field-end--
+# --field-start--
+fieldName=insuranceId
+columnName=insuranceId
+# --field-end--
+# --field-start--
+fieldName=insuranceProvider
+columnName=insuranceProvider
+# --field-end--
+# --field-start--
+fieldName=familyNameId
+columnName=familyNameId
+# --field-end--
+# --field-start--
+fieldName=encryptedKey
+columnName=encryptedKey
+# --field-end--
+# --field-start--
+fieldName=dateCreated
+columnName=dateCreated
+# --field-end--
+# --field-start--
+fieldName=viewStatus
+columnName=viewStatus
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+# --table-start--
+dataClass=com.cpetsol.cpetsolutions.myaaptha.dbmodel.DrHomeDTO
+tableName=drhomedetails
+# --field-end--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=doctorId
+columnName=doctorId
+# --field-end--
+# --field-start--
+fieldName=name
+columnName=name
+# --field-end--
+# --field-start--
+fieldName=qulification
+columnName=qulification
+# --field-end--
+# --field-start--
+fieldName=experience
+columnName=experience
+# --field-end--
+# --field-start--
+fieldName=localities
+columnName=localities
+# --field-end--
+# --field-start--
+fieldName=specilization
+columnName=specilization
+# --field-end--
+# --field-start--
+fieldName=hospitalName
+columnName=hospitalName
+# --field-end--
+# --field-start--
+fieldName=clinicName
+columnName=clinicName
+# --field-end--
+# --field-start--
+fieldName=price
+columnName=price
+# --field-end--
+# --field-start--
+fieldName=gender
+columnName=gender
+# --field-end--
+# --field-start--
+fieldName=sunday
+columnName=sunday
+# --field-end--
+# --field-start--
+fieldName=monday
+columnName=monday
+# --field-end--
+# --field-start--
+fieldName=tuesday
+columnName=tuesday
+# --field-end--
+# --field-start--
+fieldName=wednesday
+columnName=wednesday
+# --field-end--
+# --field-start--
+fieldName=thursday
+columnName=thursday
+# --field-end--
+# --field-start--
+fieldName=friday
+columnName=friday
+# --field-end--
+# --field-start--
+fieldName=saturday
+columnName=saturday
+# --field-end--
+# --field-start--
+fieldName=hospitalId
+columnName=hospitalId
+# --field-end--
+# --field-start--
+fieldName=profileId
+columnName=profileId
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+

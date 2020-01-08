@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="@dimen/padding_x2"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/form_edit_text_bg"
+        android:padding="@dimen/margin_x">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/LayoutHeadings"
+                    android:text="@string/forgetPasswordMsg"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/closeDialog"
+                android:layout_width="@dimen/remove_width"
+                android:layout_height="@dimen/remove_width"
+                android:layout_marginRight="@dimen/margin_x"
+                android:layout_weight="1"
+                android:src="@drawable/cancel"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_x"
+            android:background="@drawable/form_edit_text_bg">
+            <EditText
+                android:id="@+id/etMobNo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spinnerHeight"
+                android:paddingLeft="@dimen/padding_x2"
+                android:maxLength="10"
+                android:inputType="number"
+                android:background="@color/transparent"
+                android:hint="@string/mobNumb"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/padding_x"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fpwButton"
+                style="@style/mainBlockButton"
+                android:text="@string/submit"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="@dimen/padding_x2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/form_edit_text_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:padding="@dimen/padding_x2"
+            >
+            <TextView
+                android:layout_width="0dp"
+                style="@style/LayoutHeadings"
+                android:text="Book Appoinment"
+                android:textSize="@dimen/tvHeading"
+                android:layout_weight="1.9"
+                android:id="@+id/textView5" />
+            <ImageView
+                android:layout_width="0dp"
+                android:id="@+id/closeDialog"
+                style="@style/backfrag_button_submit"
+                android:layout_weight="0.1"
+                android:padding="0dp"
+                android:src="@drawable/cancel"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_width"
+            android:background="@color/gray_999"/>
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            style="@style/ll_date"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight"
+                android:textSize="@dimen/font_size"
+                android:layout_weight="0.8"
+                android:text="@string/dr.name"
+                android:paddingLeft="@dimen/padding_x2"/>
+            <LinearLayout
+                android:paddingRight="@dimen/margin_x"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/form_edit_text_bg"
+                android:layout_weight="1.2">
+                <Spinner
+                    android:id="@+id/PopUpSpinnerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spinnerHeight">
+
+                </Spinner>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            style="@style/ll_date"
+            android:weightSum="2">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_height="wrap_content"
+               android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:text="Doctor name" />
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_height="wrap_content"
+                android:id="@+id/popUpDrName"
+               android:layout_width="0dp"
+                android:layout_weight="1.2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            style="@style/ll_date"
+            android:weightSum="2">
+            <TextView
+                android:textSize="@dimen/font_size"
+              android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Qualification" />
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:id="@+id/popUpDrQualif"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            style="@style/ll_date"
+            android:weightSum="2">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Experience" />
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:id="@+id/popUpDrExp"
+               android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1.2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            style="@style/ll_date"
+            android:weightSum="2">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Locality" />
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:id="@+id/popUpDrLocality"
+               android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            style="@style/ll_date"
+            android:weightSum="2">
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Specilization" />
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:id="@+id/popUpDrSpec"
+               android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1.2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            style="@style/ll_date"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+              android:textSize="@dimen/font_size"
+                android:layout_weight="0.8"
+                android:text="Hospital name" />
+            <TextView
+                android:textSize="@dimen/font_size"
+                android:layout_height="wrap_content"
+                android:id="@+id/popUpDrHospName"
+               android:layout_width="0dp"
+                android:layout_weight="1.2"/>
+        </LinearLayout>
+
+<!--<com.cpetsol.cpet.utils.HorizontalDatePicker.HorizontalPicker-->
+    <!--android:id="@+id/hordatePicker"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+<!--</com.cpetsol.cpet.utils.HorizontalDatePicker.HorizontalPicker>-->
+
+
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            style="@style/ll_date"
+            android:weightSum="2">
+            <TextView
+                android:textSize="@dimen/font_size"
+               android:layout_width="0dp"
+                android:layout_height="@dimen/spinnerHeight"
+                android:layout_weight="0.8"
+                android:text="Date"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1.2">
+                <EditText
+                    android:id="@+id/popUpDrbookDate"
+                    style="@style/date_field"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            style="@style/ll_date"
+            android:weightSum="2">
+            <TextView
+                android:textSize="@dimen/font_size"
+               android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="@dimen/spinnerHeight"
+                android:text="Time Slots"/>
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/form_edit_text_bg"
+              android:layout_weight="1.2">
+              <Spinner
+                  android:id="@+id/PopUpSpinnerTimeSlots"
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/spinnerHeight">
+              </Spinner>
+          </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/padding_x2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_x"
+            android:gravity="center">
+            <Button
+                android:textColor="@color/white"
+                android:background="@drawable/button_selector_1"
+                android:id="@+id/PopUpDocors_book"
+                style="@style/mainBlockButton"
+                android:text="Book"
+                android:layout_width="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

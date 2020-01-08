@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/form_edit_text_bg"
+    tools:context="com.cpetsol.cpetsolutions.myaaptha.fragment.MainMenuFragment">
+    <LinearLayout
+        android:background="@drawable/lightgrayedittextbox"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="@dimen/font_size"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:backgroundTint="#CCCCFF"
+                android:background="@drawable/button"
+                android:layout_weight="1.4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/tvUserData"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_size"
+                android:gravity="center"
+                android:text="User Data"/>
+            <TextView
+
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:backgroundTint="#93C572"
+                android:background="@drawable/button"
+                android:layout_weight="1.4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/tvAppts"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_size"
+                android:text="Appointments"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/font_size"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:backgroundTint="#F49AC2"
+                android:background="@drawable/button"
+                android:layout_weight="1.4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/inbox"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_size"
+                android:gravity="center"
+                android:text="Inbox"/>
+            <TextView
+
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:backgroundTint="#9BDDFF"
+                android:background="@drawable/button"
+                android:layout_weight="1.4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/tvSearchUser"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_size"
+                android:text="Search User"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/font_size"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:backgroundTint="#30D5C8"
+                android:background="@drawable/button"
+                android:layout_weight="1.4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/msg"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_size"
+                android:gravity="center"
+                android:text="Messages"/>
+            <TextView
+
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:backgroundTint="#ACE1AF"
+                android:background="@drawable/button"
+                android:layout_weight="1.4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size"
+                android:id="@+id/roles"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_size"
+                android:text="Roles"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+
+                android:background="@drawable/circle_round_background"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"
+                android:layout_width="@dimen/header_img_size"
+                android:layout_height="@dimen/header_img_size" />
+            <TextView
+
+                android:gravity="center"
+                android:textSize="@dimen/layoutHeadings"
+                android:text="welcome to My Aaptha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/font_size"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/draw_edittext_bg"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_mainFragnav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>
+

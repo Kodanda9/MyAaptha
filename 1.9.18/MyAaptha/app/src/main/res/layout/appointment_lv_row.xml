@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/prescll"
+            android:padding="@dimen/cardElevation"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="@dimen/font_size"
+                            android:textColor="@color/black"
+                            android:text="OP ID"
+                            android:layout_weight="1.1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textSize="@dimen/font_size"
+                            android:textColor="@color/black"
+                            android:text=":"
+                            android:layout_weight="0.1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+<LinearLayout
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_weight="1.9"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content">
+           <TextView
+            android:textSize="@dimen/font_size"
+               android:textColor="#3399ff"
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            />
+    <TextView
+        android:id="@id/cancel"
+        android:visibility="gone"
+        android:background="@drawable/button_selector_1"
+        android:text="Cancel Appointment"
+        android:layout_weight="1.5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+                </LinearLayout>
+            <LinearLayout
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="@dimen/font_size"
+                    android:textColor="@color/black"
+                    android:text="Patient Name"
+                    android:layout_weight="1.1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="@dimen/font_size"
+                    android:textColor="@color/black"
+                    android:text=":"
+                    android:layout_weight="0.1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="@dimen/font_size"
+                    android:textColor="#3399ff"
+                    android:id="@+id/patientname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.9"
+                    />
+            </LinearLayout>
+                <LinearLayout
+                    android:weightSum="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="@dimen/font_size"
+                            android:textColor="@color/black"
+                            android:text="Hospital Name"
+                            android:layout_weight="1.1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textSize="@dimen/font_size"
+                            android:textColor="@color/black"
+                            android:text=":"
+                            android:layout_weight="0.1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                <TextView
+            android:textSize="@dimen/font_size"
+                    android:textColor="#3399ff"
+            android:id="@+id/tv2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9"
+            />
+                </LinearLayout>
+            <LinearLayout
+                android:id="@+id/drly"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="@dimen/font_size"
+                    android:textColor="@color/black"
+                    android:text="Doctor Name"
+                    android:layout_weight="1.1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="@dimen/font_size"
+                    android:textColor="@color/black"
+                    android:text=":"
+                    android:layout_weight="0.1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textSize="@dimen/font_size"
+                    android:textColor="@color/brown"
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.9"
+                    />
+            </LinearLayout>
+                <LinearLayout
+                    android:weightSum="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="@dimen/font_size"
+                            android:textColor="@color/black"
+                            android:id="@+id/tvDate"
+                            android:text="Date"
+                            android:layout_weight="1.1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textSize="@dimen/font_size"
+                            android:textColor="@color/black"
+                            android:text=":"
+                            android:layout_weight="0.1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/font_size"
+            android:textColor="#3399ff"
+            android:id="@+id/tv3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9"
+            />
+                </LinearLayout>
+             <!--   <LinearLayout
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="@dimen/font_size"
+                            android:textColor="@color/black"
+                            android:id="@+id/tvTimeSlots"
+                            android:text="Time Slot"
+                            android:layout_weight="1.5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textSize="@dimen/font_size"
+                            android:textColor="@color/black"
+                            android:text=":"
+                            android:layout_weight="0.5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/font_size"
+            android:textColor="#3399ff"
+            android:id="@+id/tv4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            />
+                </LinearLayout>-->
+        </LinearLayout>
+</LinearLayout>

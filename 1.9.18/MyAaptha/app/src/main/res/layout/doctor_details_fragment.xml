@@ -1,0 +1,273 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/form_edit_text_bg"
+    tools:context="com.cpetsol.cpetsolutions.myaaptha.fragment.DoctorDetailsFragmen">
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+          android:layout_weight="1.8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:padding="@dimen/font_size"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="0.6"
+               android:text="Name"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <EditText
+
+               android:id="@+id/name"
+               android:background="@drawable/draw_edittext_bg"
+               android:layout_weight="1.4"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="@dimen/padding_2x"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="0.6"
+               android:text="Qualification"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <Spinner
+               android:id="@+id/qualification"
+               android:background="@drawable/lightgrayedittextbox"
+               android:layout_weight="1.4"
+               android:layout_width="0dp"
+               android:layout_height="@dimen/spinnerHeight" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="@dimen/padding_2x"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="0.6"
+               android:text="Specialization "
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <Spinner
+               android:id="@+id/specialization"
+               android:background="@drawable/draw_edittext_bg"
+               android:layout_weight="1.4"
+               android:layout_width="0dp"
+               android:layout_height="@dimen/spinnerHeight" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="@dimen/padding_2x"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="0.6"
+               android:text="Experience"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <Spinner
+               android:entries="@array/experience"
+               android:id="@+id/experience"
+               android:background="@drawable/lightgrayedittextbox"
+               android:layout_weight="1.4"
+               android:layout_width="0dp"
+               android:layout_height="@dimen/spinnerHeight" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="@dimen/padding_2x"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="0.6"
+               android:text="Medical Council No"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+
+           <EditText
+               android:id="@+id/medcounno"
+               android:background="@drawable/draw_edittext_bg"
+               android:layout_weight="1.4"
+               android:layout_width="0dp"
+               android:layout_height="@dimen/spinnerHeight" />
+       </LinearLayout>
+       <LinearLayout
+
+           android:layout_marginTop="@dimen/padding_2x"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="0.6"
+               android:text="State of Medical Council"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <EditText
+               android:id="@+id/stateofmc"
+               android:background="@drawable/lightgrayedittextbox"
+               android:layout_weight="1.4"
+               android:layout_width="0dp"
+               android:layout_height="@dimen/spinnerHeight" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="@dimen/padding_2x"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="0.6"
+               android:text="University Name "
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <EditText
+               android:id="@+id/universityname"
+               android:background="@drawable/draw_edittext_bg"
+               android:layout_weight="1.4"
+               android:layout_width="0dp"
+               android:layout_height="@dimen/spinnerHeight" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="@dimen/padding_2x"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="0.6"
+               android:text="Qualified Year"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <EditText
+               style="@style/date_field"
+               android:id="@+id/qualifiedyr"
+               android:background="@drawable/lightgrayedittextbox"
+               android:layout_weight="1.4"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="@dimen/padding_2x"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="0.6"
+               android:text="Year of Registration"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <EditText
+               style="@style/date_field"
+               android:id="@+id/yor"
+               android:background="@drawable/draw_edittext_bg"
+               android:layout_weight="1.4"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="@dimen/padding_2x"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_weight="0.6"
+               android:text="City"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/textView6" />
+
+           <Spinner
+               android:id="@+id/city"
+               android:background="@drawable/lightgrayedittextbox"
+               android:layout_weight="1.4"
+               android:layout_width="0dp"
+               android:layout_height="@dimen/spinnerHeight" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_marginTop="@dimen/padding_2x"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="0.6"
+               android:text="Locality "
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <EditText
+               android:id="@+id/locality"
+               android:background="@drawable/draw_edittext_bg"
+               android:layout_weight="1.4"
+               android:layout_width="0dp"
+               android:layout_height="@dimen/spinnerHeight" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_marginTop="@dimen/padding_2x"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:text="About your self"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+           <EditText
+               android:id="@+id/about"
+               android:background="@drawable/lightgrayedittextbox"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+
+   </LinearLayout>
+</ScrollView>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/font_size"
+            android:orientation="horizontal"
+            android:weightSum="3"
+
+            android:layout_weight="0.2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/save"
+                android:background="@drawable/button_selector_1"
+                android:text="Save"
+                android:layout_weight="0.60"
+                android:layout_width="0dp"
+                android:layout_height="27dp" />
+            <TextView
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/update"
+                android:visibility="gone"
+                android:background="@drawable/button_selector_1"
+                android:text="Update"
+                android:layout_weight="1.4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

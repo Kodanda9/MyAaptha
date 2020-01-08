@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:iconTint="@color/white"
+        android:iconTintMode="multiply"
+        android:id="@+id/tab1"
+        android:checked="true"
+        android:icon="@drawable/addfriend"
+        android:title="Request Data"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab2"
+        android:checked="false"
+        android:icon="@drawable/review"
+        android:title="Dr Review Inf"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab3"
+        android:checked="false"
+        android:icon="@drawable/report"
+        android:title="User Reports"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab4"
+        android:checked="false"
+        android:icon="@drawable/healthreport"
+        android:title="Doctor Reports"
+        app:showAsAction="ifRoom" />
+</menu>
